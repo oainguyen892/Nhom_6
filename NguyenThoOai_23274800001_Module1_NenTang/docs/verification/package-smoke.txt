@@ -1,0 +1,17 @@
+  Determining projects to restore...
+  Restored D:\nhom6_detai5\.work\package-smoke\QuanLyKhachSan_UNETI06_TI17A2ND\QuanLyKhachSan_UNETI06_TI17A2ND.csproj (in 8.21 sec).
+  Restored D:\nhom6_detai5\.work\package-smoke\tests\QuanLyKhachSan.Tests\QuanLyKhachSan.Tests.csproj (in 8.21 sec).
+  QuanLyKhachSan_UNETI06_TI17A2ND -> D:\nhom6_detai5\.work\package-smoke\QuanLyKhachSan_UNETI06_TI17A2ND\bin\Release\net10.0\QuanLyKhachSan_UNETI06_TI17A2ND.dll
+  QuanLyKhachSan.Tests -> D:\nhom6_detai5\.work\package-smoke\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.18
+Test run for D:\nhom6_detai5\.work\package-smoke\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+WARNING: Overwriting results file: D:\nhom6_detai5\docs\verification\package-smoke.trx
+Results File: D:\nhom6_detai5\docs\verification\package-smoke.trx
+
+Passed!  - Failed:     0, Passed:    74, Skipped:     0, Total:    74, Duration: 30 s - QuanLyKhachSan.Tests.dll (net10.0)

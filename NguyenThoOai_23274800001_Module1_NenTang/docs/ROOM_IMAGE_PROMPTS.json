@@ -1,0 +1,27 @@
+{
+  "tool": "imagegen (built-in)",
+  "purpose": "Local illustrative hotel room images; not photographs of a verified hotel property.",
+  "sharedPrompt": "Use case: photorealistic-natural. Asset type: local illustrative room photograph for a hotel booking website. [Room description] Wide landscape composition, eye-level professional interior photography, straight architectural verticals, believable materials, tidy empty room, natural color grading. No people, no text, no logos, no watermarks. Make a single full-frame image, not a collage.",
+  "rooms": [
+    {
+      "file": "QuanLyKhachSan_UNETI06_TI17A2ND/wwwroot/images/rooms/standard.png",
+      "description": "A compact, refined Vietnamese city hotel standard room for one guest, one comfortable single bed with white linen, light oak headboard, small desk, warm cream walls and sage accents, morning daylight, realistic attainable three-star hotel quality."
+    },
+    {
+      "file": "QuanLyKhachSan_UNETI06_TI17A2ND/wwwroot/images/rooms/superior.png",
+      "description": "A welcoming superior hotel room with a queen double bed, crisp ivory bedding, oak bedside tables, muted sage upholstered headboard, tall window and sheer curtains, warm morning daylight, understated Vietnamese city hotel."
+    },
+    {
+      "file": "QuanLyKhachSan_UNETI06_TI17A2ND/wwwroot/images/rooms/deluxe.png",
+      "description": "An elegant spacious deluxe hotel room, king bed with ivory duvet, olive upholstered headboard, small reading sofa by a large window, walnut wood details and brass bedside lighting, natural afternoon light, sophisticated but realistic."
+    },
+    {
+      "file": "QuanLyKhachSan_UNETI06_TI17A2ND/wwwroot/images/rooms/family.png",
+      "description": "A spacious welcoming family hotel room with two double beds, white linen, pale oak furniture, warm beige and muted sage upholstery, a shared desk, large bright window, calm practical family accommodation."
+    },
+    {
+      "file": "QuanLyKhachSan_UNETI06_TI17A2ND/wwwroot/images/rooms/suite.png",
+      "description": "A refined spacious hotel suite with a king bed and a distinct lounge area, cream sofa, coffee table, walnut details, soft olive-green accents, wide windows with daylight, tasteful premium Vietnamese city hotel interior."
+    }
+  ]
+}

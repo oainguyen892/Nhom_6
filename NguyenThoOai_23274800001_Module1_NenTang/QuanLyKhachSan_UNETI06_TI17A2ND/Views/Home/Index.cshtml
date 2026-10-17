@@ -1,0 +1,32 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Thọ Oai
+Mã sinh viên: 23274800001
+Nội dung thực hiện: Phạm vi được giao - Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@{ViewData["Title"]="Chào mừng";}
+<section class="hero">
+    <div class="hero-copy">
+        <p class="eyebrow">Không gian nghỉ ngơi của bạn</p>
+        <h1>Một kỳ nghỉ trọn vẹn, bắt đầu từ đây.</h1>
+        <p class="muted">Tìm phòng phù hợp, đặt lịch lưu trú và theo dõi mọi thông tin trong một nơi.</p>
+        <a class="button" asp-controller="Phong" asp-action="Index">Khám phá phòng →</a>
+    </div>
+    <figure class="hero-photo">
+        <img src="@RoomIllustrations.For("Suite")" alt="Ảnh minh họa không gian phòng Suite và khu vực nghỉ ngơi" width="1536" height="1024" fetchpriority="high" decoding="async"/>
+        <figcaption><span class="eyebrow">N06 HOTEL</span><strong>Dễ tìm. Dễ đặt. An tâm lưu trú.</strong><span class="image-label">Ảnh minh họa</span></figcaption>
+    </figure>
+</section>
+<div class="grid"><article class="card"><h3>01 · Tìm phòng</h3><p>Chọn hạng phòng, tầng và mức giá theo nhu cầu.</p></article><article class="card"><h3>02 · Đặt lịch</h3><p>Chọn ngày nhận/trả và các phòng cho chuyến đi của bạn.</p></article><article class="card"><h3>03 · Theo dõi</h3><p>Xem xác nhận và lịch sử lưu trú trong tài khoản cá nhân.</p></article></div>
+<section class="room-collection">
+    <div class="toolbar"><div><p class="eyebrow">Một không gian cho mỗi chuyến đi</p><h2>Khám phá các hạng phòng</h2></div><a asp-controller="Phong" asp-action="Index">Xem tất cả phòng →</a></div>
+    <div class="grid room-grid">
+    @foreach(var typeName in new[]{"Tiêu chuẩn","Superior","Deluxe","Gia đình","Suite"})
+    {
+        <a class="room-type-card" asp-controller="Phong" asp-action="Index" asp-route-Q="@typeName">
+            <div class="room-type-image"><img src="@RoomIllustrations.For(typeName)" alt="Ảnh minh họa hạng phòng @typeName" width="1536" height="1024" loading="lazy" decoding="async"/><span class="image-label">Ảnh minh họa</span></div>
+            <div class="room-type-caption"><h3>@typeName</h3><span>Xem phòng →</span></div>
+        </a>
+    }
+    </div>
+</section>

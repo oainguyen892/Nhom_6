@@ -1,0 +1,11 @@
+Delivery audit: PASS
+Baseline: QLKS06-20261017-v5
+sourceFingerprint: 89b1c2e5100903ff67f5baf9fbe051bfb1a9ed49af61f1bf9d9224a975d9417a
+25 specification rows and required documents: PASS
+Manifest file hashes, UTF-8, namespace naming and common secret-pattern scan: PASS
+Named responsibility headers and student IDs: PASS (69 files; no personal review signatures asserted)
+DangTungDuong_23274800005_Module2_Dashboard_ThongKe.zip: PASS (16 source files + 4 review documents)
+NguyenVanPhong_23203100062_Module3_DatPhong_NhanTra.zip: PASS (17 source files + 4 review documents)
+QuanLyKhachSan_UNETI06_TI17A2ND_FullSource.zip: PASS (all baseline source hashes verified)
+Disjoint module source sets: PASS
+No nested ZIP, Git metadata, build output, local database or known secret files: PASS

@@ -1,0 +1,19 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Thọ Oai
+Mã sinh viên: 23274800001
+Nội dung thực hiện: Phạm vi được giao - Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+<!DOCTYPE html><html lang="vi"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>@ViewData["Title"] · Khách sạn Nhóm 06</title><link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/></head>
+<body><header><a class="brand" asp-controller="Home" asp-action="Index">N06 <span>HOTEL</span></a><nav aria-label="Điều hướng chính"><a asp-controller="Phong" asp-action="Index">Khám phá phòng</a>
+@if(Context.Session.GetInt32("MaTaiKhoan").HasValue){
+ if(Context.Session.GetString("VaiTro")=="Admin") {
+ <a asp-controller="ThongKe" asp-action="Index">Dashboard</a><a asp-controller="LoaiPhong" asp-action="Index">Loại phòng</a><a asp-controller="KhachHang" asp-action="Index">Khách hàng</a><a asp-controller="PhieuDatPhong" asp-action="Index">Phiếu đặt</a><a asp-controller="TaiKhoan" asp-action="Index">Tài khoản</a>
+ } else { <a asp-controller="DatPhong" asp-action="Index">Phiếu của tôi</a><a asp-controller="DatPhong" asp-action="Index" asp-route-lichSu="true">Lịch sử lưu trú</a><a asp-controller="KhachHang" asp-action="HoSo">Hồ sơ</a> }
+ <form asp-controller="TaiKhoan" asp-action="DangXuat" method="post"><button class="quiet">Đăng xuất · @Context.Session.GetString("HoTen")</button></form>
+}else{<a asp-controller="TaiKhoan" asp-action="DangNhap">Đăng nhập</a>}
+</nav></header><main>
+@if(TempData["Success"] is string success){<div class="notice success" role="status">@success</div>}
+@if(TempData["Error"] is string error){<div class="notice error" role="alert">@error</div>}
+@RenderBody()</main><footer>Khách sạn Nhóm 06 · TI17A2ND · Đề tài 05</footer>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>@await RenderSectionAsync("Scripts",required:false)<script src="~/js/site.js" asp-append-version="true"></script></body></html>

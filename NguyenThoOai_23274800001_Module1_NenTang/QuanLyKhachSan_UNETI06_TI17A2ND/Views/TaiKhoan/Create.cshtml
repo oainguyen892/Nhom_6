@@ -1,0 +1,16 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Thọ Oai
+Mã sinh viên: 23274800001
+Nội dung thực hiện: Phạm vi được giao - Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model TaoTaiKhoanForm
+@{ViewData["Title"]="Tạo tài khoản";}<section class="panel form-page"><h1>Tạo tài khoản</h1><form method="post"><div asp-validation-summary="All"></div>
+<div class="field"><label asp-for="TenDangNhap"></label><input asp-for="TenDangNhap"/><span asp-validation-for="TenDangNhap"></span></div>
+<div class="field"><label asp-for="HoTen"></label><input asp-for="HoTen"/><span asp-validation-for="HoTen"></span></div>
+<div class="field"><label asp-for="Email"></label><input asp-for="Email"/><span asp-validation-for="Email"></span></div>
+<div class="field"><label asp-for="MatKhauMoi"></label><input asp-for="MatKhauMoi"/><span asp-validation-for="MatKhauMoi"></span></div>
+<div class="field"><label asp-for="SoDienThoai"></label><input asp-for="SoDienThoai"/><span asp-validation-for="SoDienThoai"></span></div>
+<div class="field"><label asp-for="CCCD"></label><input asp-for="CCCD"/><span asp-validation-for="CCCD"></span></div>
+<div class="field"><label asp-for="VaiTro"></label><select asp-for="VaiTro" asp-items="Html.GetEnumSelectList<VaiTro>()"></select></div><p class="muted">Khách hàng được tạo kèm hồ sơ; hãy cập nhật ngày sinh khi đăng nhập.</p><button>Lưu</button> <a asp-action="Index">Quay lại</a></form></section>
+@section Scripts{<partial name="_ValidationScriptsPartial"/>}

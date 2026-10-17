@@ -1,0 +1,485 @@
+[
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/DatPhongController.cs",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/HomeController.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/HotelController.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/KhachHangController.cs",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/LoaiPhongController.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/PhieuDatPhongController.cs",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 4: quản lý phiếu, xác nhận/hủy và nhận/trả phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/PhongController.cs",
+    "person": "Đặng Tùng Dương",
+    "studentId": "23274800005",
+    "scope": "Module 2: quản lý phòng, tìm kiếm, lọc, sắp xếp và phân trang",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/TaiKhoanController.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/ThongKeController.cs",
+    "person": "Đặng Tùng Dương",
+    "studentId": "23274800005",
+    "scope": "Module 4: Dashboard và các thống kê LINQ",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Data/DemoSeed.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "DbContext, quan hệ, Code First/Migration và dữ liệu mẫu dùng chung",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Data/HotelDbContext.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "DbContext, quan hệ, Code First/Migration và dữ liệu mẫu dùng chung",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Filters/SessionGuardAttribute.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Migrations/20261016074658_InitialHotel.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "DbContext, quan hệ, Code First/Migration và dữ liệu mẫu dùng chung",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Migrations/20261016074658_InitialHotel.Designer.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "DbContext, quan hệ, Code First/Migration và dữ liệu mẫu dùng chung",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Migrations/HotelDbContextModelSnapshot.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "DbContext, quan hệ, Code First/Migration và dữ liệu mẫu dùng chung",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Models/ChiTietDatPhong.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc dữ liệu dùng chung: ChiTietDatPhong, ràng buộc và quan hệ",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Models/KhachHang.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc dữ liệu dùng chung: KhachHang, ràng buộc và quan hệ",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Models/LoaiPhong.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc dữ liệu dùng chung: LoaiPhong, ràng buộc và quan hệ",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Models/PhieuDatPhong.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc dữ liệu dùng chung: PhieuDatPhong, ràng buộc và quan hệ",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Models/Phong.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc dữ liệu dùng chung: Phong, ràng buộc và quan hệ",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Models/TaiKhoan.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc dữ liệu dùng chung: TaiKhoan, ràng buộc và quan hệ",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Models/TienAttribute.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc dữ liệu dùng chung: TienAttribute, ràng buộc và quan hệ",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Models/TrangThai.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc dữ liệu dùng chung: TrangThai, ràng buộc và quan hệ",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Program.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Services/BookingRules.cs",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Services/BookingService.cs",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Services/DecimalBinder.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Services/HotelClock.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Services/HotelTransaction.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Services/RoomSearch.cs",
+    "person": "Đặng Tùng Dương",
+    "studentId": "23274800005",
+    "scope": "Module 2: quản lý phòng, tìm kiếm, lọc, sắp xếp và phân trang",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Services/StatisticsService.cs",
+    "person": "Đặng Tùng Dương",
+    "studentId": "23274800005",
+    "scope": "Module 4: Dashboard và các thống kê LINQ",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/ViewModels/DatPhongForm.cs",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/ViewModels/HoSoForm.cs",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/ViewModels/PhongQuery.cs",
+    "person": "Đặng Tùng Dương",
+    "studentId": "23274800005",
+    "scope": "Module 2: quản lý phòng, tìm kiếm, lọc, sắp xếp và phân trang",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/ViewModels/RoomIllustrations.cs",
+    "person": "Đặng Tùng Dương",
+    "studentId": "23274800005",
+    "scope": "Module 2: quản lý phòng, tìm kiếm, lọc, sắp xếp và phân trang",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/ViewModels/StatisticsPage.cs",
+    "person": "Đặng Tùng Dương",
+    "studentId": "23274800005",
+    "scope": "Module 4: Dashboard và các thống kê LINQ",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/ViewModels/TaiKhoanForms.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/_ViewImports.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/_ViewStart.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/DatPhong/Create.cshtml",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/DatPhong/Details.cshtml",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/DatPhong/Index.cshtml",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Home/Error.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Home/Index.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/KhachHang/Details.cshtml",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/KhachHang/HoSo.cshtml",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/KhachHang/Index.cshtml",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/LoaiPhong/Details.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/LoaiPhong/Form.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/LoaiPhong/Index.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/PhieuDatPhong/Details.cshtml",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 4: quản lý phiếu, xác nhận/hủy và nhận/trả phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/PhieuDatPhong/Index.cshtml",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 4: quản lý phiếu, xác nhận/hủy và nhận/trả phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Phong/Details.cshtml",
+    "person": "Đặng Tùng Dương",
+    "studentId": "23274800005",
+    "scope": "Module 2: quản lý phòng, tìm kiếm, lọc, sắp xếp và phân trang",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Phong/Form.cshtml",
+    "person": "Đặng Tùng Dương",
+    "studentId": "23274800005",
+    "scope": "Module 2: quản lý phòng, tìm kiếm, lọc, sắp xếp và phân trang",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Phong/Index.cshtml",
+    "person": "Đặng Tùng Dương",
+    "studentId": "23274800005",
+    "scope": "Module 2: quản lý phòng, tìm kiếm, lọc, sắp xếp và phân trang",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Shared/_BookingDetails.cshtml",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 4: quản lý phiếu, xác nhận/hủy và nhận/trả phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Shared/_BookingList.cshtml",
+    "person": "Nguyễn Văn Phong",
+    "studentId": "23203100062",
+    "scope": "Module 4: quản lý phiếu, xác nhận/hủy và nhận/trả phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Shared/_Layout.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Shared/_ValidationScriptsPartial.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiến trúc MVC, cấu hình, dịch vụ và giao diện dùng chung; tích hợp",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/TaiKhoan/Create.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/TaiKhoan/DangNhap.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/TaiKhoan/Edit.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/TaiKhoan/Index.cshtml",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "QuanLyKhachSan_UNETI06_TI17A2ND/Views/ThongKe/Index.cshtml",
+    "person": "Đặng Tùng Dương",
+    "studentId": "23274800005",
+    "scope": "Module 4: Dashboard và các thống kê LINQ",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "tests/QuanLyKhachSan.Tests/AdminWorkflowTests.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiểm thử tự động, SQL Server/HTTP và tích hợp hệ thống",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "tests/QuanLyKhachSan.Tests/BookingRulesTests.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiểm thử tự động, SQL Server/HTTP và tích hợp hệ thống",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "tests/QuanLyKhachSan.Tests/DecimalAndRollbackTests.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiểm thử tự động, SQL Server/HTTP và tích hợp hệ thống",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "tests/QuanLyKhachSan.Tests/ProductionSmokeTests.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiểm thử tự động, SQL Server/HTTP và tích hợp hệ thống",
+    "status": "assigned_pending_member_review"
+  },
+  {
+    "file": "tests/QuanLyKhachSan.Tests/SqlWebTests.cs",
+    "person": "Nguyễn Thọ Oai",
+    "studentId": "23274800001",
+    "scope": "Kiểm thử tự động, SQL Server/HTTP và tích hợp hệ thống",
+    "status": "assigned_pending_member_review"
+  }
+]

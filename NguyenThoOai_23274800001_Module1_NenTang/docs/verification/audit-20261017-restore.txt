@@ -1,0 +1,3 @@
+  Determining projects to restore...
+  Restored D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND\QuanLyKhachSan_UNETI06_TI17A2ND.csproj (in 307 ms).
+  Restored D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\QuanLyKhachSan.Tests.csproj (in 307 ms).

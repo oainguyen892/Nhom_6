@@ -1,0 +1,8 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Thọ Oai
+Mã sinh viên: 23274800001
+Nội dung thực hiện: Phạm vi được giao - Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model SuaTaiKhoanForm
+@{ViewData["Title"]="Cập nhật tài khoản";}<section class="panel form-page"><h1>Quyền và trạng thái</h1><form method="post"><input type="hidden" asp-for="Id"/><div asp-validation-summary="All"></div><div class="field"><label asp-for="VaiTro"></label><select asp-for="VaiTro" asp-items="Html.GetEnumSelectList<VaiTro>()"></select></div><div class="field"><label><input asp-for="TrangThai"/> Hoạt động</label></div><button>Lưu</button> <a asp-action="Index">Quay lại</a></form></section>

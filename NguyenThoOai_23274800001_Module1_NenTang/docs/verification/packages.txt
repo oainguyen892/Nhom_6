@@ -1,0 +1,19 @@
+  Determining projects to restore...
+  Restored D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\QuanLyKhachSan.Tests.csproj (in 10.16 sec).
+  Restored D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND\QuanLyKhachSan_UNETI06_TI17A2ND.csproj (in 10.16 sec).
+
+The following sources were used:
+   https://api.nuget.org/v3/index.json
+   C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+
+The given project `QuanLyKhachSan_UNETI06_TI17A2ND` has no vulnerable packages given the current sources.
+The given project `QuanLyKhachSan.Tests` has no vulnerable packages given the current sources.
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+
+The following sources were used:
+   https://api.nuget.org/v3/index.json
+   C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+
+The given project `QuanLyKhachSan_UNETI06_TI17A2ND` has no updates given the current sources.
+The given project `QuanLyKhachSan.Tests` has no updates given the current sources.

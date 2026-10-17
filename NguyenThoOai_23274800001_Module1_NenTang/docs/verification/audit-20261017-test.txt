@@ -1,0 +1,6 @@
+Test run for D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+WARNING: Overwriting results file: D:\nhom6_detai5\docs\verification\audit-20261017\final.trx
+Results File: D:\nhom6_detai5\docs\verification\audit-20261017\final.trx
+
+Passed!  - Failed:     0, Passed:    78, Skipped:     0, Total:    78, Duration: 37 s - QuanLyKhachSan.Tests.dll (net10.0)

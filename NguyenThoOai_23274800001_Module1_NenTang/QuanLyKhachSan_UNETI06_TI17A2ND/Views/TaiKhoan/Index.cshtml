@@ -1,0 +1,9 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Thọ Oai
+Mã sinh viên: 23274800001
+Nội dung thực hiện: Phạm vi được giao - Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model List<TaiKhoan>
+@{ViewData["Title"]="Tài khoản";}<div class="toolbar"><h1>Quản lý tài khoản</h1><a class="button" asp-action="Create">Tạo tài khoản</a></div>
+<div class="table-wrap"><table><thead><tr><th>Tên đăng nhập</th><th>Họ tên</th><th>Email</th><th>Vai trò</th><th>Hoạt động</th><th></th></tr></thead><tbody>@foreach(var a in Model){<tr><td>@a.TenDangNhap</td><td>@a.HoTen</td><td>@a.Email</td><td>@(a.VaiTro==VaiTro.Admin?"Admin":"Khách hàng")</td><td>@(a.TrangThai?"Có":"Khóa")</td><td><a asp-action="Edit" asp-route-id="@a.MaTaiKhoan">Quyền / Trạng thái</a></td></tr>}</tbody></table></div>
