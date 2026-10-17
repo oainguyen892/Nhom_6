@@ -1,0 +1,11 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Văn Phong
+Mã sinh viên: 23203100062
+Nội dung thực hiện: Phạm vi được giao - Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model DatPhongForm
+@{ViewData["Title"]="Đặt phòng";var rooms=(List<Phong>)ViewBag.Phongs;}
+<section class="panel form-page"><h1>Đăng ký đặt phòng</h1><p class="muted">Chọn tối đa 10 phòng. Giá và số đêm được tính tại máy chủ khi đặt thành công; lịch trống được kiểm tra khi gửi.</p><form method="post"><div asp-validation-summary="All"></div><div class="grid"><div class="field"><label asp-for="NgayNhan"></label><input asp-for="NgayNhan" type="date"/><span asp-validation-for="NgayNhan"></span></div><div class="field"><label asp-for="NgayTra"></label><input asp-for="NgayTra" type="date"/><span asp-validation-for="NgayTra"></span></div></div>
+<fieldset><legend>Phòng muốn đặt</legend>@foreach(var r in rooms){<div class="room-choice"><img class="room-choice-photo" src="@RoomIllustrations.For(r.LoaiPhong.TenLoaiPhong)" alt="Ảnh minh họa hạng @r.LoaiPhong.TenLoaiPhong" width="96" height="72" loading="lazy" decoding="async"/><input type="checkbox" id="r-@r.MaPhong" name="PhongIds" value="@r.MaPhong" checked="@Model.PhongIds.Contains(r.MaPhong)"/><label for="r-@r.MaPhong">@r.SoPhong · @r.LoaiPhong.TenLoaiPhong · @r.DonGiaDem.Vnd() / đêm</label></div>}</fieldset><span asp-validation-for="PhongIds"></span><p><button>Gửi yêu cầu đặt phòng</button> <a asp-controller="Phong" asp-action="Index">Quay lại</a></p></form></section>
+@section Scripts{<partial name="_ValidationScriptsPartial"/>}

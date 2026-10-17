@@ -1,0 +1,8 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Văn Phong
+Mã sinh viên: 23203100062
+Nội dung thực hiện: Phạm vi được giao - Module 4: quản lý phiếu, xác nhận/hủy và nhận/trả phòng.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model PhieuDatPhong
+<div class="toolbar"><h1>Phiếu đặt #@Model.MaPhieuDat</h1><span class="badge">@Model.TrangThai.Ten()</span></div><div class="panel"><dl><dt>Ngày đặt</dt><dd>@Model.NgayDat.ToString("dd/MM/yyyy HH:mm")</dd><dt>Ngày nhận</dt><dd>@Model.NgayNhanDuKien.ToString("dd/MM/yyyy")</dd><dt>Ngày trả</dt><dd>@Model.NgayTraDuKien.ToString("dd/MM/yyyy")</dd><dt>Tổng dự kiến</dt><dd class="price">@Model.TongTienDuKien.Vnd()</dd></dl></div><div class="table-wrap"><table><thead><tr><th>Phòng</th><th>Đơn giá tại lúc đặt</th><th>Số đêm</th><th>Thành tiền</th></tr></thead><tbody>@foreach(var d in Model.ChiTiets){<tr><td>@d.Phong.SoPhong</td><td>@d.DonGiaDem.Vnd()</td><td>@d.SoDem</td><td>@d.ThanhTien.Vnd()</td></tr>}</tbody></table></div>

@@ -1,0 +1,8 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Văn Phong
+Mã sinh viên: 23203100062
+Nội dung thực hiện: Phạm vi được giao - Module 4: quản lý phiếu, xác nhận/hủy và nhận/trả phòng.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model List<PhieuDatPhong>
+@{ViewData["Title"]="Quản lý phiếu đặt";}<h1>Quản lý phiếu đặt</h1><form method="get" class="panel filters"><div><label for="q">Tên khách hàng</label><input id="q" name="q" value="@ViewBag.Q"/></div><div><label for="trangThai">Trạng thái</label><select id="trangThai" name="trangThai"><option value="">Tất cả</option>@foreach(var s in Enum.GetValues<TrangThaiDat>()){<option value="@((int)s)" selected="@((TrangThaiDat?)ViewBag.TrangThai==s)">@s.Ten()</option>}</select></div><div><label for="ngayNhan">Ngày nhận</label><input type="date" id="ngayNhan" name="ngayNhan" value="@(((DateTime?)ViewBag.NgayNhan)?.ToString("yyyy-MM-dd"))"/></div><button>Tìm phiếu</button></form><partial name="_BookingList" model="Model"/>

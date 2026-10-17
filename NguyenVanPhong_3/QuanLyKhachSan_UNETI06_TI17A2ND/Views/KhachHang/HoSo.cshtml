@@ -1,0 +1,10 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Văn Phong
+Mã sinh viên: 23203100062
+Nội dung thực hiện: Phạm vi được giao - Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model HoSoForm
+@{ViewData["Title"]="Hồ sơ của tôi";}<section class="panel form-page"><h1>Hồ sơ của tôi</h1><form method="post"><div asp-validation-summary="All"></div>
+<div class="field"><label asp-for="HoTen"></label><input asp-for="HoTen"/><span asp-validation-for="HoTen"></span></div><div class="field"><label asp-for="Email"></label><input asp-for="Email"/><span asp-validation-for="Email"></span></div><div class="field"><label asp-for="NgaySinh"></label><input asp-for="NgaySinh"/><span asp-validation-for="NgaySinh"></span></div><div class="field"><label asp-for="SoDienThoai"></label><input asp-for="SoDienThoai"/><span asp-validation-for="SoDienThoai"></span></div><div class="field"><label asp-for="CCCD"></label><input asp-for="CCCD"/><span asp-validation-for="CCCD"></span></div><div class="field"><label asp-for="GioiTinh"></label><select asp-for="GioiTinh"><option>Nam</option><option>Nữ</option><option>Khác</option></select></div><div class="field"><label asp-for="DiaChi"></label><textarea asp-for="DiaChi"></textarea></div><button>Cập nhật hồ sơ</button></form></section>
+@section Scripts{<partial name="_ValidationScriptsPartial"/>}

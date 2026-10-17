@@ -1,0 +1,8 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Văn Phong
+Mã sinh viên: 23203100062
+Nội dung thực hiện: Phạm vi được giao - Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model List<PhieuDatPhong>
+@{ViewData["Title"]=(bool)ViewBag.LichSu?"Lịch sử lưu trú":"Phiếu của tôi";}<div class="toolbar"><h1>@ViewData["Title"]</h1><a class="button" asp-action="Create">Đặt phòng</a></div><partial name="_BookingList" model="Model"/>

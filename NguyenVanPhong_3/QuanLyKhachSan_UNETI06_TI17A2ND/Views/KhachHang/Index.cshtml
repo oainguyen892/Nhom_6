@@ -1,0 +1,8 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Văn Phong
+Mã sinh viên: 23203100062
+Nội dung thực hiện: Phạm vi được giao - Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model List<KhachHang>
+@{ViewData["Title"]="Khách hàng";}<h1>Khách hàng</h1><form method="get" class="panel filters"><div><label for="q">Tên / số điện thoại / CCCD</label><input id="q" name="q" value="@ViewBag.Q"/></div><button>Tìm kiếm</button></form><div class="table-wrap"><table><thead><tr><th>Họ tên</th><th>Điện thoại</th><th>Email</th><th>Trạng thái</th><th></th></tr></thead><tbody>@foreach(var k in Model){<tr><td><a asp-action="Details" asp-route-id="@k.MaKhachHang">@k.HoTen</a></td><td>@k.SoDienThoai</td><td>@k.Email</td><td>@(k.TrangThai?"Hoạt động":"Khóa đặt phòng")</td><td><form asp-action="TrangThai" method="post"><input name="id" type="hidden" value="@k.MaKhachHang"/><input name="active" type="hidden" value="@((!k.TrangThai).ToString().ToLowerInvariant())"/><button>@(k.TrangThai?"Khóa":"Mở")</button></form></td></tr>}</tbody></table></div>@if(Model.Count==0){<p class="empty">Không có khách hàng phù hợp.</p>}

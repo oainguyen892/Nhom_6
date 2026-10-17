@@ -1,0 +1,8 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Văn Phong
+Mã sinh viên: 23203100062
+Nội dung thực hiện: Phạm vi được giao - Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model KhachHang
+@{ViewData["Title"]="Chi tiết khách hàng";}<section class="panel"><h1>@Model.HoTen</h1><dl><dt>Ngày sinh</dt><dd>@Model.NgaySinh?.ToString("dd/MM/yyyy")</dd><dt>Giới tính</dt><dd>@Model.GioiTinh</dd><dt>Điện thoại</dt><dd>@Model.SoDienThoai</dd><dt>Email</dt><dd>@Model.Email</dd><dt>CCCD</dt><dd>@Model.CCCD</dd><dt>Địa chỉ</dt><dd>@Model.DiaChi</dd><dt>Ngày đăng ký</dt><dd>@Model.NgayDangKy.ToString("dd/MM/yyyy")</dd><dt>Trạng thái</dt><dd>@(Model.TrangThai?"Hoạt động":"Khóa đặt phòng")</dd></dl><a asp-action="Index">Danh sách khách hàng</a></section>

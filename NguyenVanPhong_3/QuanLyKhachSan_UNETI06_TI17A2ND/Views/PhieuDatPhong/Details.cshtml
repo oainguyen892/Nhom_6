@@ -1,0 +1,10 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Văn Phong
+Mã sinh viên: 23203100062
+Nội dung thực hiện: Phạm vi được giao - Module 4: quản lý phiếu, xác nhận/hủy và nhận/trả phòng.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model PhieuDatPhong
+@{ViewData["Title"]="Chi tiết phiếu";}<p>Khách hàng: <a asp-controller="KhachHang" asp-action="Details" asp-route-id="@Model.MaKhachHang">@Model.KhachHang.HoTen</a></p><partial name="_BookingDetails" model="Model"/><div class="panel actions">
+@foreach(var s in Enum.GetValues<TrangThaiDat>().Where(s=>QuanLyKhachSan_UNETI06_TI17A2ND.Services.BookingRules.CanMove(Model.TrangThai,s))){<form asp-action="ChuyenTrangThai" method="post" data-confirm="Xác nhận thao tác với phiếu này?"><input name="id" type="hidden" value="@Model.MaPhieuDat"/><input name="target" type="hidden" value="@((int)s)"/><button>@s.Ten()</button></form>}
+<a asp-action="Index">Danh sách phiếu</a></div>
