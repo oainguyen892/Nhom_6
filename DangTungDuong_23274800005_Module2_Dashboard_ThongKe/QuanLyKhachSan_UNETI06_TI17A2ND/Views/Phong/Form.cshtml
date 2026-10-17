@@ -1,0 +1,11 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Đặng Tùng Dương
+Mã sinh viên: 23274800005
+Nội dung thực hiện: Phạm vi được giao - Module 2: quản lý phòng, tìm kiếm, lọc, sắp xếp và phân trang.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model Phong
+@{ViewData["Title"]=Model.MaPhong==0?"Thêm phòng":"Sửa phòng";}<section class="panel form-page"><h1>@ViewData["Title"]</h1><form method="post"><div asp-validation-summary="All"></div>
+<div class="field"><label asp-for="SoPhong"></label><input asp-for="SoPhong"/><span asp-validation-for="SoPhong"></span></div><div class="field"><label asp-for="MaLoaiPhong"></label><select asp-for="MaLoaiPhong" asp-items="ViewBag.Loais"></select><span asp-validation-for="MaLoaiPhong"></span></div>
+<div class="field"><label asp-for="Tang"></label><input asp-for="Tang"/><span asp-validation-for="Tang"></span></div><div class="field"><label asp-for="DonGiaDem"></label><input asp-for="DonGiaDem" type="number" step="0.01"/><span asp-validation-for="DonGiaDem"></span></div><div class="field"><label asp-for="MoTa"></label><textarea asp-for="MoTa"></textarea><span asp-validation-for="MoTa"></span></div><div class="field"><label asp-for="TrangThai"></label><select asp-for="TrangThai" asp-items="Html.GetEnumSelectList<TrangThaiPhong>()"></select></div><p class="muted">Đang sử dụng được quản lý qua nhận/trả phòng. Đơn giá mới chỉ áp dụng cho các lượt đặt mới.</p><button>Lưu</button> <a asp-action="Index">Quay lại</a></form></section>
+@section Scripts{<partial name="_ValidationScriptsPartial"/>}
