@@ -1,0 +1,11 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Đặng Tùng Dương
+Mã sinh viên: 23274800005
+Nội dung thực hiện: Phạm vi được giao - Module 4: Dashboard và các thống kê LINQ.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model StatisticsPage
+@{ViewData["Title"]="Dashboard và thống kê";}<p class="eyebrow">Quản trị khách sạn</p><h1>Dashboard & thống kê</h1><div class="metrics">@foreach(var t in Model.Totals){<div class="metric"><span>@t.Key</span><b>@t.Value</b></div>}</div>
+<p class="muted">Lượt đặt theo phòng, loại và khách loại trừ phiếu đã hủy. Doanh thu lấy tổng dự kiến của phiếu đã trả, nhóm theo tháng ngày trả dự kiến. Chưa bao gồm dịch vụ phát sinh hoặc thuế.</p>
+<div class="grid">@foreach(var report in new[]{("Phòng theo loại",Model.RoomsByType),("Phiếu theo trạng thái",Model.BookingsByState),("Lượt đặt theo phòng",Model.BookingsByRoom),("Loại phòng đặt nhiều nhất",Model.TopTypes),("Lượt đặt theo khách",Model.BookingsByCustomer)}){<section class="card"><h2>@report.Item1</h2><table><thead><tr><th>Đối tượng</th><th>Số lượng</th></tr></thead><tbody>@foreach(var r in report.Item2){<tr><td>@r.Label</td><td>@r.Count</td></tr>}</tbody></table></section>}</div>
+<h2>Doanh thu theo tháng</h2><div class="table-wrap"><table><thead><tr><th>Tháng</th><th>Phiếu đã trả</th><th>Doanh thu</th></tr></thead><tbody>@foreach(var r in Model.Revenue){<tr><td>@r.Label</td><td>@r.Count</td><td>@r.Amount.Vnd()</td></tr>}</tbody></table></div>
