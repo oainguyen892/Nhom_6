@@ -1,0 +1,16 @@
+  Determining projects to restore...
+  Restored C:\Users\LEGION 5\AppData\Local\Temp\Nhom6PackageAudit_20261017_025tazql\QuanLyKhachSan_UNETI06_TI17A2ND\QuanLyKhachSan_UNETI06_TI17A2ND.csproj (in 324 ms).
+  Restored C:\Users\LEGION 5\AppData\Local\Temp\Nhom6PackageAudit_20261017_025tazql\tests\QuanLyKhachSan.Tests\QuanLyKhachSan.Tests.csproj (in 324 ms).
+  QuanLyKhachSan_UNETI06_TI17A2ND -> C:\Users\LEGION 5\AppData\Local\Temp\Nhom6PackageAudit_20261017_025tazql\QuanLyKhachSan_UNETI06_TI17A2ND\bin\Release\net10.0\QuanLyKhachSan_UNETI06_TI17A2ND.dll
+  QuanLyKhachSan.Tests -> C:\Users\LEGION 5\AppData\Local\Temp\Nhom6PackageAudit_20261017_025tazql\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.22
+Test run for C:\Users\LEGION 5\AppData\Local\Temp\Nhom6PackageAudit_20261017_025tazql\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+Results File: D:\nhom6_detai5\docs\verification\audit-20261017-package-smoke.trx
+
+Passed!  - Failed:     0, Passed:    78, Skipped:     0, Total:    78, Duration: 28 s - QuanLyKhachSan.Tests.dll (net10.0)

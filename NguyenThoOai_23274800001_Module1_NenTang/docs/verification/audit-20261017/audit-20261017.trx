@@ -1,0 +1,1089 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="1afaea6e-d25b-415a-8614-8214ddeef19f" name="LEGION 5@THO-OAI 2026-10-17 13:09:04" runUser="THO-OAI\LEGION 5" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-17T13:09:04.3340750+07:00" queuing="2026-10-17T13:09:04.3340752+07:00" start="2026-10-17T13:09:01.3798236+07:00" finish="2026-10-17T13:09:43.6038226+07:00" />
+  <TestSettings name="default" id="821215c2-2a82-4d0d-acf5-078c4dec7561">
+    <Deployment runDeploymentRoot="LEGION_5_THO-OAI_2026-10-17_13_09_04" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="3df8fa37-7e12-43da-aa0e-36ea201ebc1b" testId="7be7e8b4-f730-8e34-7bbe-6958a6fa21c5" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 2, to: 0, expected: False)" computerName="THO-OAI" duration="00:00:00.0000008" startTime="2026-10-17T13:09:04.2976469+07:00" endTime="2026-10-17T13:09:04.2976738+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3df8fa37-7e12-43da-aa0e-36ea201ebc1b" />
+    <UnitTestResult executionId="2c5fab19-7239-488f-96de-fb72a59518b1" testId="31850c96-5aef-552f-b85f-376b509a6266" testName="QuanLyKhachSan.Tests.SqlWebTests.MoneyScaleValidation(price: &quot;1.001&quot;, expected: False)" computerName="THO-OAI" duration="00:00:00.0004971" startTime="2026-10-17T13:09:27.3225282+07:00" endTime="2026-10-17T13:09:28.6460508+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c5fab19-7239-488f-96de-fb72a59518b1" />
+    <UnitTestResult executionId="db61a39a-31c4-46a5-b693-ccd6a5e48527" testId="ffc6d860-f8e9-1f2e-b27d-7cbcdb27ef79" testName="QuanLyKhachSan.Tests.SqlWebTests.SqlConstraintsEnforceUniquenessAndRestrictDeletes" computerName="THO-OAI" duration="00:00:00.0466433" startTime="2026-10-17T13:09:34.3430114+07:00" endTime="2026-10-17T13:09:35.6391779+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db61a39a-31c4-46a5-b693-ccd6a5e48527" />
+    <UnitTestResult executionId="b78a60ed-0f74-4a2e-9eee-04171bf75f95" testId="1495f852-fc0f-5718-d0a0-2dd039637b41" testName="QuanLyKhachSan.Tests.SqlWebTests.DecimalPriceBindsWithoutCultureDrift(price: &quot;700000.25&quot;)" computerName="THO-OAI" duration="00:00:00.1953437" startTime="2026-10-17T13:09:16.8238658+07:00" endTime="2026-10-17T13:09:18.3074501+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b78a60ed-0f74-4a2e-9eee-04171bf75f95" />
+    <UnitTestResult executionId="c0b94a36-b71d-4504-a12b-6c2b314e8a66" testId="24bb87d8-10e6-c5ef-437b-ea79b80beddd" testName="QuanLyKhachSan.Tests.SqlWebTests.MultiRoomRollbackAndMoney" computerName="THO-OAI" duration="00:00:00.0465582" startTime="2026-10-17T13:09:35.6393361+07:00" endTime="2026-10-17T13:09:36.8013106+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0b94a36-b71d-4504-a12b-6c2b314e8a66" />
+    <UnitTestResult executionId="acef879f-4430-4146-a7a0-770fa56193a9" testId="84580aff-8f5e-9547-9561-4ab462a7476c" testName="QuanLyKhachSan.Tests.BookingRulesTests.ProfileValidation(email: &quot;a@b.com&quot;, phone: &quot;1234&quot;, cccd: &quot;001234567890&quot;, expected: False)" computerName="THO-OAI" duration="00:00:00.0000299" startTime="2026-10-17T13:09:04.2996609+07:00" endTime="2026-10-17T13:09:04.2996924+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acef879f-4430-4146-a7a0-770fa56193a9" />
+    <UnitTestResult executionId="da2369d5-29c2-46f9-bb94-15c6786ca50c" testId="14a8f253-feb3-c673-d246-817f16c6ea3e" testName="QuanLyKhachSan.Tests.BookingRulesTests.InvalidNights(days: 366)" computerName="THO-OAI" duration="00:00:00.0000180" startTime="2026-10-17T13:09:04.2850085+07:00" endTime="2026-10-17T13:09:04.2850466+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da2369d5-29c2-46f9-bb94-15c6786ca50c" />
+    <UnitTestResult executionId="a5292d38-75a3-40de-a72e-83831a85fc69" testId="cfe130a8-b107-a2a9-f43a-f947dcc85cd4" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 2, to: 1, expected: False)" computerName="THO-OAI" duration="00:00:00.0000007" startTime="2026-10-17T13:09:04.2967873+07:00" endTime="2026-10-17T13:09:04.2968225+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5292d38-75a3-40de-a72e-83831a85fc69" />
+    <UnitTestResult executionId="3acfe665-82bb-47ae-a5cc-09d19e91bad2" testId="e73a97c6-8bfe-1d94-7765-d0bf2f6c7486" testName="QuanLyKhachSan.Tests.BookingRulesTests.InvalidNights(days: 0)" computerName="THO-OAI" duration="00:00:00.0006540" startTime="2026-10-17T13:09:04.2842816+07:00" endTime="2026-10-17T13:09:04.2843368+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3acfe665-82bb-47ae-a5cc-09d19e91bad2" />
+    <UnitTestResult executionId="90a2e362-81c6-4f8c-b61c-7eea29539a18" testId="bc591e68-3ce4-5843-3e97-8ca8bc3b8a5d" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 4, to: 4, expected: False)" computerName="THO-OAI" duration="00:00:00.0000012" startTime="2026-10-17T13:09:04.2975771+07:00" endTime="2026-10-17T13:09:04.2976036+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90a2e362-81c6-4f8c-b61c-7eea29539a18" />
+    <UnitTestResult executionId="8f08f14d-c0b7-4a6b-b847-b17607816397" testId="6b3d9770-2791-c164-b358-287a43bb97df" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 1, to: 2, expected: True)" computerName="THO-OAI" duration="00:00:00.0000008" startTime="2026-10-17T13:09:04.2987667+07:00" endTime="2026-10-17T13:09:04.2987941+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f08f14d-c0b7-4a6b-b847-b17607816397" />
+    <UnitTestResult executionId="f0c34252-52c3-4870-b62e-398bdab156e4" testId="2acf7768-0611-1892-b35a-fbeaba01d498" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 1, to: 1, expected: False)" computerName="THO-OAI" duration="00:00:00.0000010" startTime="2026-10-17T13:09:04.2986972+07:00" endTime="2026-10-17T13:09:04.2987229+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0c34252-52c3-4870-b62e-398bdab156e4" />
+    <UnitTestResult executionId="d7381a4b-05b1-4755-9277-73255c01fd6b" testId="458edd08-16e6-1305-0533-3c36250a86cd" testName="QuanLyKhachSan.Tests.BookingRulesTests.ProfileValidation(email: &quot;a@b.com&quot;, phone: &quot;0901234567&quot;, cccd: &quot;001234567890&quot;, expected: True)" computerName="THO-OAI" duration="00:00:00.0009596" startTime="2026-10-17T13:09:04.2991766+07:00" endTime="2026-10-17T13:09:04.2992024+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7381a4b-05b1-4755-9277-73255c01fd6b" />
+    <UnitTestResult executionId="9eeb5a8e-9d3d-4bf8-a94b-9db0cc2d4f81" testId="0a26e534-d329-ba7d-da8f-e6f52316dbb5" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 4, to: 0, expected: False)" computerName="THO-OAI" duration="00:00:00.0000014" startTime="2026-10-17T13:09:04.2988363+07:00" endTime="2026-10-17T13:09:04.2988624+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9eeb5a8e-9d3d-4bf8-a94b-9db0cc2d4f81" />
+    <UnitTestResult executionId="802e5894-3eb2-4dcc-88d8-77e403efcf94" testId="0c5d1925-b2b6-f8d8-fc56-8bb9f6662f7c" testName="QuanLyKhachSan.Tests.BookingRulesTests.ProfileValidation(email: &quot;a@b.com&quot;, phone: &quot;0901234567&quot;, cccd: &quot;123&quot;, expected: False)" computerName="THO-OAI" duration="00:00:00.0006841" startTime="2026-10-17T13:09:04.2991075+07:00" endTime="2026-10-17T13:09:04.2991338+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="802e5894-3eb2-4dcc-88d8-77e403efcf94" />
+    <UnitTestResult executionId="e2b22435-8355-4825-9853-f2d676229dc0" testId="19f2dc41-b63f-f178-ce26-fc42799e9266" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 1, to: 4, expected: True)" computerName="THO-OAI" duration="00:00:00.0000011" startTime="2026-10-17T13:09:04.2964214+07:00" endTime="2026-10-17T13:09:04.2964491+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2b22435-8355-4825-9853-f2d676229dc0" />
+    <UnitTestResult executionId="fb58ab40-246d-486c-aad7-f96157c2942c" testId="9f62b1fb-c068-e756-7952-28cb407e7c62" testName="QuanLyKhachSan.Tests.ProductionSmokeTests.ProductionDoesNotMigrateOrSeedEvenWhenDemoSettingIsTrue" computerName="THO-OAI" duration="00:00:02.5938977" startTime="2026-10-17T13:09:03.8616343+07:00" endTime="2026-10-17T13:09:08.6888281+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb58ab40-246d-486c-aad7-f96157c2942c" />
+    <UnitTestResult executionId="29bf5b00-5d54-4f31-8e2a-4550efab28f4" testId="b8af7041-cfc9-5e24-4c26-a9d63ba5001b" testName="QuanLyKhachSan.Tests.SqlWebTests.BookingAdminHttpFiltersAndTransitions" computerName="THO-OAI" duration="00:00:00.2519232" startTime="2026-10-17T13:09:32.9100367+07:00" endTime="2026-10-17T13:09:34.3428441+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29bf5b00-5d54-4f31-8e2a-4550efab28f4" />
+    <UnitTestResult executionId="63c93ad3-c0b3-4468-bb7e-9d1eb5ebbd50" testId="56a81128-cda8-ea07-2f8f-a71de7b15107" testName="QuanLyKhachSan.Tests.ProductionSmokeTests.ProductionErrorPageDoesNotExposeDatabaseException" computerName="THO-OAI" duration="00:00:10.3360226" startTime="2026-10-17T13:09:08.7651376+07:00" endTime="2026-10-17T13:09:19.1295342+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="63c93ad3-c0b3-4468-bb7e-9d1eb5ebbd50" />
+    <UnitTestResult executionId="57184b8b-705a-436f-9dec-ac747500153b" testId="422632ce-6e44-f895-4e29-7779bfd33e44" testName="QuanLyKhachSan.Tests.SqlWebTests.MigrationSeedAndStatisticsReconcile" computerName="THO-OAI" duration="00:00:00.0759632" startTime="2026-10-17T13:09:31.6748708+07:00" endTime="2026-10-17T13:09:32.9099155+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57184b8b-705a-436f-9dec-ac747500153b" />
+    <UnitTestResult executionId="60048c22-7879-4ee5-8dfb-cb74451572c5" testId="4929a694-dc8f-4ae3-0e3b-e64e3c3809af" testName="QuanLyKhachSan.Tests.SqlWebTests.MoneyScaleValidation(price: &quot;1.25&quot;, expected: True)" computerName="THO-OAI" duration="00:00:00.0002825" startTime="2026-10-17T13:09:25.8818683+07:00" endTime="2026-10-17T13:09:27.3223568+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60048c22-7879-4ee5-8dfb-cb74451572c5" />
+    <UnitTestResult executionId="6a05016c-6fa7-4710-b5bc-d125b5eefb45" testId="c3e4daca-b114-efa8-f46d-ffff8ac9bc6d" testName="QuanLyKhachSan.Tests.SqlWebTests.LoginWrongLockedLogoutAndServerGuards" computerName="THO-OAI" duration="00:00:00.2324175" startTime="2026-10-17T13:09:30.0946479+07:00" endTime="2026-10-17T13:09:31.6747172+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a05016c-6fa7-4710-b5bc-d125b5eefb45" />
+    <UnitTestResult executionId="a293b129-9130-4dd7-88e6-f0e105fa32e2" testId="421ffc32-9a28-6f03-dcc3-0f5483be9ccd" testName="QuanLyKhachSan.Tests.SqlWebTests.BookingSnapshotAndTamperedPricesIgnored" computerName="THO-OAI" duration="00:00:00.2346272" startTime="2026-10-17T13:09:15.2267247+07:00" endTime="2026-10-17T13:09:16.8236922+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a293b129-9130-4dd7-88e6-f0e105fa32e2" />
+    <UnitTestResult executionId="03b95cf1-c51b-43b2-88d9-85b103ba2290" testId="b707be1f-754a-85b0-d403-dfa398dc91a8" testName="QuanLyKhachSan.Tests.SqlWebTests.CrudValidationUniquenessAndForeignKeys" computerName="THO-OAI" duration="00:00:00.2965716" startTime="2026-10-17T13:09:36.8014688+07:00" endTime="2026-10-17T13:09:38.1965179+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03b95cf1-c51b-43b2-88d9-85b103ba2290" />
+    <UnitTestResult executionId="579481bf-359d-41e3-b3fe-47a7e96072e9" testId="d0a3359d-c9e7-c23f-1ca8-01c9a5b29751" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 4, to: 2, expected: False)" computerName="THO-OAI" duration="00:00:00.0000014" startTime="2026-10-17T13:09:04.2966440+07:00" endTime="2026-10-17T13:09:04.2966715+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="579481bf-359d-41e3-b3fe-47a7e96072e9" />
+    <UnitTestResult executionId="36904b7f-a87d-49d4-9f86-a6161a53ba32" testId="81129577-a35b-b6ef-0014-ecc65f783952" testName="QuanLyKhachSan.Tests.BookingRulesTests.RoomTypeValidation(name: &quot;Deluxe&quot;, people: 2, price: 100, expected: True)" computerName="THO-OAI" duration="00:00:00.0005880" startTime="2026-10-17T13:09:04.2998354+07:00" endTime="2026-10-17T13:09:04.2998620+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36904b7f-a87d-49d4-9f86-a6161a53ba32" />
+    <UnitTestResult executionId="55fcb375-5f53-4d68-9c8e-d1e07ceb2257" testId="46b488f0-1dab-6502-cb2d-0ff204d12c45" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 3, to: 2, expected: False)" computerName="THO-OAI" duration="00:00:00.0000010" startTime="2026-10-17T13:09:04.2965003+07:00" endTime="2026-10-17T13:09:04.2965285+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55fcb375-5f53-4d68-9c8e-d1e07ceb2257" />
+    <UnitTestResult executionId="2a27bba1-d076-402b-9f6f-80e5bb82e7b8" testId="fc51e664-b932-06e8-78c5-dda7f6e3acc4" testName="QuanLyKhachSan.Tests.BookingRulesTests.Nights(days: 1, expected: 1)" computerName="THO-OAI" duration="00:00:00.0032600" startTime="2026-10-17T13:09:04.2861178+07:00" endTime="2026-10-17T13:09:04.2861514+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a27bba1-d076-402b-9f6f-80e5bb82e7b8" />
+    <UnitTestResult executionId="7ad3f436-e350-4cc1-91ab-35aada2d3148" testId="adeb3ff2-0a5d-b241-baab-199ba7238b3f" testName="QuanLyKhachSan.Tests.BookingRulesTests.HalfOpenIntervals(a: 0, b: 2, c: 2, d: 4, expected: False)" computerName="THO-OAI" duration="00:00:00.0000012" startTime="2026-10-17T13:09:04.3002616+07:00" endTime="2026-10-17T13:09:04.3002867+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ad3f436-e350-4cc1-91ab-35aada2d3148" />
+    <UnitTestResult executionId="e676b7ca-4351-4d2c-b639-219bd2837c1f" testId="e5d36042-ea3d-b974-cfc5-5d59bcc10122" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 2, to: 4, expected: False)" computerName="THO-OAI" duration="00:00:00.0000007" startTime="2026-10-17T13:09:04.2977952+07:00" endTime="2026-10-17T13:09:04.2978216+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e676b7ca-4351-4d2c-b639-219bd2837c1f" />
+    <UnitTestResult executionId="665ce151-843e-4557-9a80-446e7187afcf" testId="3f209c05-426b-e479-b010-e80a5baddcea" testName="QuanLyKhachSan.Tests.SqlWebTests.CancellationAndFutureCheckinRules" computerName="THO-OAI" duration="00:00:00.0424476" startTime="2026-10-17T13:09:39.6189419+07:00" endTime="2026-10-17T13:09:40.9650515+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="665ce151-843e-4557-9a80-446e7187afcf" />
+    <UnitTestResult executionId="911f6a3a-6abc-417e-a90e-593af0b79753" testId="7e14847c-c0a9-0e48-78b7-61e2ad8dd70e" testName="QuanLyKhachSan.Tests.BookingRulesTests.HalfOpenIntervals(a: 0, b: 5, c: 1, d: 2, expected: True)" computerName="THO-OAI" duration="00:00:00.0000037" startTime="2026-10-17T13:09:04.3001939+07:00" endTime="2026-10-17T13:09:04.3002200+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="911f6a3a-6abc-417e-a90e-593af0b79753" />
+    <UnitTestResult executionId="7e42ee71-65da-4bf1-9fda-5bee21f4533d" testId="b22ac562-326a-768d-1a40-69aed0811cd4" testName="QuanLyKhachSan.Tests.BookingRulesTests.RoomTypeValidation(name: &quot;Deluxe&quot;, people: 2, price: -1, expected: False)" computerName="THO-OAI" duration="00:00:00.0000829" startTime="2026-10-17T13:09:04.2999049+07:00" endTime="2026-10-17T13:09:04.2999302+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7e42ee71-65da-4bf1-9fda-5bee21f4533d" />
+    <UnitTestResult executionId="8b8ca5ed-4635-4781-9ebd-c20d7c67b3ce" testId="df758493-c448-2b6a-6259-2dca5f00b76f" testName="QuanLyKhachSan.Tests.SqlWebTests.AccountCreationAndSelfLockProtection" computerName="THO-OAI" duration="00:00:00.2661684" startTime="2026-10-17T13:09:12.3331198+07:00" endTime="2026-10-17T13:09:13.8385646+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b8ca5ed-4635-4781-9ebd-c20d7c67b3ce" />
+    <UnitTestResult executionId="0946e33f-86d0-46d4-8b00-899fabf84be6" testId="c467d425-fc53-2b36-2d72-5ad4fe5d9aa7" testName="QuanLyKhachSan.Tests.SqlWebTests.InvalidBookingsNeverPersist" computerName="THO-OAI" duration="00:00:00.0346674" startTime="2026-10-17T13:09:28.6461877+07:00" endTime="2026-10-17T13:09:30.0945048+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0946e33f-86d0-46d4-8b00-899fabf84be6" />
+    <UnitTestResult executionId="0b9ada8c-4548-484d-9e60-d4a3aff57468" testId="42798f99-6a4a-4192-dfed-3135482e665c" testName="QuanLyKhachSan.Tests.SqlWebTests.CustomerDisabledCannotBookAndValidationShowsMessages" computerName="THO-OAI" duration="00:00:00.2119496" startTime="2026-10-17T13:09:19.7493427+07:00" endTime="2026-10-17T13:09:21.2725803+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b9ada8c-4548-484d-9e60-d4a3aff57468" />
+    <UnitTestResult executionId="d55adff0-4a95-42e5-8b05-2670a4b28293" testId="31b37462-35d2-5156-1d14-d3a2cf6e1300" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 3, to: 3, expected: False)" computerName="THO-OAI" duration="00:00:00.0000014" startTime="2026-10-17T13:09:04.2974847+07:00" endTime="2026-10-17T13:09:04.2975196+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d55adff0-4a95-42e5-8b05-2670a4b28293" />
+    <UnitTestResult executionId="285999e6-d10f-465b-92eb-0faa040c5b74" testId="6f69fdd2-828a-8ee8-ba6f-32da4c02f24b" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 0, to: 0, expected: False)" computerName="THO-OAI" duration="00:00:00.0000038" startTime="2026-10-17T13:09:04.2963346+07:00" endTime="2026-10-17T13:09:04.2963658+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="285999e6-d10f-465b-92eb-0faa040c5b74" />
+    <UnitTestResult executionId="885143b9-cd3a-491c-8a0a-5e4fd1129d50" testId="eb151b58-0bc0-c932-9cfb-0d88614f8193" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 1, to: 3, expected: False)" computerName="THO-OAI" duration="00:00:00.0000008" startTime="2026-10-17T13:09:04.2979331+07:00" endTime="2026-10-17T13:09:04.2979595+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="885143b9-cd3a-491c-8a0a-5e4fd1129d50" />
+    <UnitTestResult executionId="c9076e92-b1ed-48f5-94c4-b315fd6e8694" testId="a5ce3ce3-ca10-9c03-dde1-32b995de7abc" testName="QuanLyKhachSan.Tests.BookingRulesTests.Nights(days: 2, expected: 2)" computerName="THO-OAI" duration="00:00:00.0000044" startTime="2026-10-17T13:09:04.2863005+07:00" endTime="2026-10-17T13:09:04.2863298+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9076e92-b1ed-48f5-94c4-b315fd6e8694" />
+    <UnitTestResult executionId="f3ddf7ee-4e69-4a33-a320-13de31c8d9ff" testId="2e4560a7-51f9-e831-33fa-2d8fed196ff9" testName="QuanLyKhachSan.Tests.BookingRulesTests.HalfOpenIntervals(a: 0, b: 2, c: 1, d: 3, expected: True)" computerName="THO-OAI" duration="00:00:00.0002141" startTime="2026-10-17T13:09:04.3001248+07:00" endTime="2026-10-17T13:09:04.3001506+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3ddf7ee-4e69-4a33-a320-13de31c8d9ff" />
+    <UnitTestResult executionId="b76963cd-c242-4ac8-bbba-79700a0714bc" testId="8d733c8a-ddfe-f0cd-e662-ce749cad3f01" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 0, to: 3, expected: False)" computerName="THO-OAI" duration="00:00:00.0016033" startTime="2026-10-17T13:09:04.2864078+07:00" endTime="2026-10-17T13:09:04.2864371+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b76963cd-c242-4ac8-bbba-79700a0714bc" />
+    <UnitTestResult executionId="57beb04b-0165-4cd6-9dc2-61c6d172179c" testId="e1632fb1-757e-dd11-444d-238cca8f6418" testName="QuanLyKhachSan.Tests.SqlWebTests.RoomEditPreservesHistoryAndPriceSnapshot" computerName="THO-OAI" duration="00:00:00.3692385" startTime="2026-10-17T13:09:10.6429871+07:00" endTime="2026-10-17T13:09:12.3328879+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57beb04b-0165-4cd6-9dc2-61c6d172179c" />
+    <UnitTestResult executionId="1f085c8d-ed88-4dcc-a62c-87bdbf3d455a" testId="b5ec02a5-d54d-8efd-b6b0-a8c3a1b7576d" testName="QuanLyKhachSan.Tests.BookingRulesTests.RoomTypeValidation(name: &quot;&quot;, people: 0, price: 0, expected: False)" computerName="THO-OAI" duration="00:00:00.0000173" startTime="2026-10-17T13:09:04.2999714+07:00" endTime="2026-10-17T13:09:04.2999969+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f085c8d-ed88-4dcc-a62c-87bdbf3d455a" />
+    <UnitTestResult executionId="2eda850e-dae2-4710-a326-437e2c2fcfc6" testId="1bd82466-f2dc-4325-bcbe-c55ea8adaa84" testName="QuanLyKhachSan.Tests.BookingRulesTests.ProfileValidation(email: &quot;bad&quot;, phone: &quot;0901234567&quot;, cccd: &quot;001234567890&quot;, expected: False)" computerName="THO-OAI" duration="00:00:00.0061022" startTime="2026-10-17T13:09:04.2990339+07:00" endTime="2026-10-17T13:09:04.2990613+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2eda850e-dae2-4710-a326-437e2c2fcfc6" />
+    <UnitTestResult executionId="991ba196-4de4-4319-bbff-1c7eb93a613f" testId="e8d0670a-e55e-976b-8070-bce4efa59653" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 3, to: 4, expected: False)" computerName="THO-OAI" duration="00:00:00.0000023" startTime="2026-10-17T13:09:04.2989241+07:00" endTime="2026-10-17T13:09:04.2989555+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="991ba196-4de4-4319-bbff-1c7eb93a613f" />
+    <UnitTestResult executionId="246e53d8-ac08-4d55-8923-b42c89c5ef24" testId="5591c19a-8086-5bd8-b4de-a66ca43e21ce" testName="QuanLyKhachSan.Tests.SqlWebTests.OverlapAndConcurrentRequestsAreAtomic" computerName="THO-OAI" duration="00:00:00.5862576" startTime="2026-10-17T13:09:03.8629544+07:00" endTime="2026-10-17T13:09:10.6427317+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="246e53d8-ac08-4d55-8923-b42c89c5ef24" />
+    <UnitTestResult executionId="ba0f3289-dbfc-480e-a064-a69cec2b6648" testId="05f32f4d-088c-a2b7-53d5-c9a23ecbcbba" testName="QuanLyKhachSan.Tests.SqlWebTests.DecimalPriceBindsWithoutCultureDrift(price: &quot;700000,25&quot;)" computerName="THO-OAI" duration="00:00:00.1575031" startTime="2026-10-17T13:09:18.3075625+07:00" endTime="2026-10-17T13:09:19.7491492+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba0f3289-dbfc-480e-a064-a69cec2b6648" />
+    <UnitTestResult executionId="04f1af10-b900-47c5-afbf-9ff8499663d1" testId="f0694b10-6157-3379-e668-8a017678f349" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 2, to: 2, expected: False)" computerName="THO-OAI" duration="00:00:00.0000007" startTime="2026-10-17T13:09:04.2980013+07:00" endTime="2026-10-17T13:09:04.2980268+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04f1af10-b900-47c5-afbf-9ff8499663d1" />
+    <UnitTestResult executionId="12a2b945-9c23-48d5-a6b2-7cc0c3c83d68" testId="f21e4795-0579-3ecb-fd39-c1cdfa2afffe" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 2, to: 3, expected: True)" computerName="THO-OAI" duration="00:00:00.0002149" startTime="2026-10-17T13:09:04.2960568+07:00" endTime="2026-10-17T13:09:04.2961106+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="12a2b945-9c23-48d5-a6b2-7cc0c3c83d68" />
+    <UnitTestResult executionId="e500238c-a97b-42fe-ab23-4330e8baa71b" testId="811db1b7-86d1-78a9-2fcf-ee21998915f0" testName="QuanLyKhachSan.Tests.BookingRulesTests.FutureBirthDateRejected" computerName="THO-OAI" duration="00:00:00.0003260" startTime="2026-10-17T13:09:04.3009245+07:00" endTime="2026-10-17T13:09:04.3009515+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e500238c-a97b-42fe-ab23-4330e8baa71b" />
+    <UnitTestResult executionId="edc518df-54a2-4968-bdfa-3ea13f21b8f9" testId="13eee5fe-c597-0a1f-96a1-9ba184f056cf" testName="QuanLyKhachSan.Tests.BookingRulesTests.InvalidNights(days: -1)" computerName="THO-OAI" duration="00:00:00.4055482" startTime="2026-10-17T13:09:03.8629219+07:00" endTime="2026-10-17T13:09:04.2736590+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="edc518df-54a2-4968-bdfa-3ea13f21b8f9" />
+    <UnitTestResult executionId="efba004a-6872-4e00-bdff-fe5aae6ea9ea" testId="1deff506-9708-7bc7-d91c-c93cb76af367" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 0, to: 1, expected: True)" computerName="THO-OAI" duration="00:00:00.0000014" startTime="2026-10-17T13:09:04.2968753+07:00" endTime="2026-10-17T13:09:04.2969049+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efba004a-6872-4e00-bdff-fe5aae6ea9ea" />
+    <UnitTestResult executionId="cb2da6b0-65a0-47a2-8184-e5ab98ba0ad4" testId="88c822ea-28b8-aa14-18b9-d31d7f2af530" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 3, to: 1, expected: False)" computerName="THO-OAI" duration="00:00:00.0000011" startTime="2026-10-17T13:09:04.2967159+07:00" endTime="2026-10-17T13:09:04.2967441+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb2da6b0-65a0-47a2-8184-e5ab98ba0ad4" />
+    <UnitTestResult executionId="3caf47c6-c577-4581-b744-4388914cf742" testId="74eac4bf-98ad-9417-f4a1-6cc6c84831d4" testName="QuanLyKhachSan.Tests.SqlWebTests.PublicAndAdminViewsHaveNoDeadRoutes" computerName="THO-OAI" duration="00:00:00.3678509" startTime="2026-10-17T13:09:42.1315938+07:00" endTime="2026-10-17T13:09:43.5268156+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3caf47c6-c577-4581-b744-4388914cf742" />
+    <UnitTestResult executionId="995175dd-0853-4f7a-8892-65280905e3a1" testId="318b4636-dbec-3720-279e-3bca60e3c6ee" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 3, to: 0, expected: False)" computerName="THO-OAI" duration="00:00:00.0000007" startTime="2026-10-17T13:09:04.2986266+07:00" endTime="2026-10-17T13:09:04.2986546+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="995175dd-0853-4f7a-8892-65280905e3a1" />
+    <UnitTestResult executionId="66a7dfad-74bf-4933-a670-afd0151898b9" testId="cc27ce8f-7e63-a058-c1df-e0342d4f20e6" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 1, to: 0, expected: False)" computerName="THO-OAI" duration="00:00:00.0000014" startTime="2026-10-17T13:09:04.2985413+07:00" endTime="2026-10-17T13:09:04.2985728+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66a7dfad-74bf-4933-a670-afd0151898b9" />
+    <UnitTestResult executionId="ce06c085-b002-4f21-ad2c-6fbab7cfbf62" testId="7dcb6d31-ccf9-5351-db50-0234725c16a8" testName="QuanLyKhachSan.Tests.SqlWebTests.StateLifecycleUpdatesRoomAndRejectsInvalidMoves" computerName="THO-OAI" duration="00:00:00.0466113" startTime="2026-10-17T13:09:40.9651974+07:00" endTime="2026-10-17T13:09:42.1314497+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce06c085-b002-4f21-ad2c-6fbab7cfbf62" />
+    <UnitTestResult executionId="e8c6d6c3-013a-40be-8621-8a6e0e80e71b" testId="cba351b9-cb65-eaf4-a4c2-26d6fa663d53" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 0, to: 2, expected: False)" computerName="THO-OAI" duration="00:00:00.0000009" startTime="2026-10-17T13:09:04.2965731+07:00" endTime="2026-10-17T13:09:04.2965997+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8c6d6c3-013a-40be-8621-8a6e0e80e71b" />
+    <UnitTestResult executionId="fc8f8c4e-6b9d-43b8-a50e-94e332e8da8a" testId="9b96fb52-b91e-3c81-7aa0-15b7cbb4b523" testName="QuanLyKhachSan.Tests.SqlWebTests.TypeStatusValidationAndTypeEdit" computerName="THO-OAI" duration="00:00:00.1773519" startTime="2026-10-17T13:09:24.4753669+07:00" endTime="2026-10-17T13:09:25.8816978+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc8f8c4e-6b9d-43b8-a50e-94e332e8da8a" />
+    <UnitTestResult executionId="3e65b925-0d42-4ed5-a725-6e3e781c0b29" testId="34b1b512-5293-20b4-095b-24449710de89" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 4, to: 1, expected: False)" computerName="THO-OAI" duration="00:00:00.0000008" startTime="2026-10-17T13:09:04.2980690+07:00" endTime="2026-10-17T13:09:04.2980949+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e65b925-0d42-4ed5-a725-6e3e781c0b29" />
+    <UnitTestResult executionId="916e0b61-e7fa-4d76-b154-c7bb16876584" testId="082699c4-0607-42b1-ad2a-e54206e917f6" testName="QuanLyKhachSan.Tests.ProductionSmokeTests.ProductionLoginUsesSecureCookiesAndGuardsAdmin" computerName="THO-OAI" duration="00:00:00.4487597" startTime="2026-10-17T13:09:19.1296818+07:00" endTime="2026-10-17T13:09:19.6067958+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="916e0b61-e7fa-4d76-b154-c7bb16876584" />
+    <UnitTestResult executionId="968eeb5a-c120-4fe8-9ccc-fa0f7183bc16" testId="144bbd5e-5957-4d1c-dad3-085ac690599a" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 4, to: 3, expected: False)" computerName="THO-OAI" duration="00:00:00.0000014" startTime="2026-10-17T13:09:04.2977161+07:00" endTime="2026-10-17T13:09:04.2977429+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="968eeb5a-c120-4fe8-9ccc-fa0f7183bc16" />
+    <UnitTestResult executionId="14b509b9-2c57-460d-8962-3ad6a0e8a198" testId="ed1561d8-4d36-4e44-71d3-f739fda5be3f" testName="QuanLyKhachSan.Tests.SqlWebTests.FailedMultiRoomCheckinRollsBackAndClearsTrackedChanges" computerName="THO-OAI" duration="00:00:00.0809517" startTime="2026-10-17T13:09:23.0555127+07:00" endTime="2026-10-17T13:09:24.4752278+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14b509b9-2c57-460d-8962-3ad6a0e8a198" />
+    <UnitTestResult executionId="db408809-92aa-42af-b1b6-6cce3e8626df" testId="006a55eb-8ee1-0991-57d7-b04881a04352" testName="QuanLyKhachSan.Tests.BookingRulesTests.Nights(days: 365, expected: 365)" computerName="THO-OAI" duration="00:00:00.0002445" startTime="2026-10-17T13:09:04.2862139+07:00" endTime="2026-10-17T13:09:04.2862517+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db408809-92aa-42af-b1b6-6cce3e8626df" />
+    <UnitTestResult executionId="50bb3a03-281f-486c-96d8-152ca36fc753" testId="27ddaa71-e504-6f92-1cdc-8eba0f75ae6e" testName="QuanLyKhachSan.Tests.SqlWebTests.CustomerOwnershipAndAntiforgery" computerName="THO-OAI" duration="00:00:00.2795876" startTime="2026-10-17T13:09:21.2727389+07:00" endTime="2026-10-17T13:09:23.0553726+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50bb3a03-281f-486c-96d8-152ca36fc753" />
+    <UnitTestResult executionId="6bca3920-a7a2-46ec-a9df-078118356344" testId="27fde6f7-0ebd-b0bc-35a2-28c128b77956" testName="QuanLyKhachSan.Tests.BookingRulesTests.HalfOpenIntervals(a: 2, b: 4, c: 0, d: 5, expected: True)" computerName="THO-OAI" duration="00:00:00.0001544" startTime="2026-10-17T13:09:04.3000560+07:00" endTime="2026-10-17T13:09:04.3000818+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6bca3920-a7a2-46ec-a9df-078118356344" />
+    <UnitTestResult executionId="f33add74-fc61-413b-a982-a519e88b73c3" testId="a45bced9-27b6-bd50-1e20-0fc156bf807e" testName="QuanLyKhachSan.Tests.SqlWebTests.AdminPostsAndLockedSessionRevalidated" computerName="THO-OAI" duration="00:00:00.1476947" startTime="2026-10-17T13:09:13.8387588+07:00" endTime="2026-10-17T13:09:15.2264135+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f33add74-fc61-413b-a982-a519e88b73c3" />
+    <UnitTestResult executionId="d90662f8-1fbc-4454-8217-2049cb659c51" testId="e84487ee-d05a-4bb5-1c57-468f2ce2e298" testName="QuanLyKhachSan.Tests.SqlWebTests.SearchFilterSortPageAndLinks" computerName="THO-OAI" duration="00:00:00.1654308" startTime="2026-10-17T13:09:38.1966739+07:00" endTime="2026-10-17T13:09:39.6187980+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d90662f8-1fbc-4454-8217-2049cb659c51" />
+    <UnitTestResult executionId="2aee0ba2-3b81-4044-8d71-29f9e2021bee" testId="1cdf310f-fb89-f93e-7a5d-563a7505b561" testName="QuanLyKhachSan.Tests.ProductionSmokeTests.ProductionRedirectsHttpAndAddsHstsOnHttps" computerName="THO-OAI" duration="00:00:00.0382277" startTime="2026-10-17T13:09:08.6913519+07:00" endTime="2026-10-17T13:09:08.7648684+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2aee0ba2-3b81-4044-8d71-29f9e2021bee" />
+    <UnitTestResult executionId="0dea110a-c130-4fbb-af9e-ad7e6fc79e77" testId="7c0af368-4c1d-b1bf-de88-96ead34cf3f1" testName="QuanLyKhachSan.Tests.BookingRulesTests.HalfOpenIntervals(a: 0, b: 1, c: 3, d: 4, expected: False)" computerName="THO-OAI" duration="00:00:00.0000010" startTime="2026-10-17T13:09:04.3007499+07:00" endTime="2026-10-17T13:09:04.3007822+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dea110a-c130-4fbb-af9e-ad7e6fc79e77" />
+    <UnitTestResult executionId="66e36c8f-96f0-4d5e-8605-5bcfb18b2d67" testId="01d7e430-c5ab-1f9b-cd98-5ba04e898d6a" testName="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 0, to: 4, expected: True)" computerName="THO-OAI" duration="00:00:00.0000019" startTime="2026-10-17T13:09:04.2978643+07:00" endTime="2026-10-17T13:09:04.2978903+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66e36c8f-96f0-4d5e-8605-5bcfb18b2d67" />
+    <UnitTestResult executionId="684557c0-357a-47ca-9f2c-15ffb5b5e557" testId="62d71ee8-3dbe-dd2a-d446-530aee63a941" testName="QuanLyKhachSan.Tests.BookingRulesTests.RoomTypeValidation(name: &quot;Deluxe&quot;, people: -1, price: 100, expected: False)" computerName="THO-OAI" duration="00:00:00.0038927" startTime="2026-10-17T13:09:04.2997657+07:00" endTime="2026-10-17T13:09:04.2997912+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="684557c0-357a-47ca-9f2c-15ffb5b5e557" />
+    <UnitTestResult executionId="43e3a006-3434-44cc-b4b5-e25fd6650771" testId="0de71340-7286-0d23-af5f-91cab0caf13c" testName="QuanLyKhachSan.Tests.BookingRulesTests.HalfOpenIntervals(a: 2, b: 4, c: 0, d: 2, expected: False)" computerName="THO-OAI" duration="00:00:00.0000008" startTime="2026-10-17T13:09:04.3008357+07:00" endTime="2026-10-17T13:09:04.3008633+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43e3a006-3434-44cc-b4b5-e25fd6650771" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.InvalidNights(days: 0)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="e73a97c6-8bfe-1d94-7765-d0bf2f6c7486">
+      <Execution id="3acfe665-82bb-47ae-a5cc-09d19e91bad2" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="InvalidNights" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.OverlapAndConcurrentRequestsAreAtomic" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="5591c19a-8086-5bd8-b4de-a66ca43e21ce">
+      <Execution id="246e53d8-ac08-4d55-8923-b42c89c5ef24" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="OverlapAndConcurrentRequestsAreAtomic" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.BookingAdminHttpFiltersAndTransitions" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="b8af7041-cfc9-5e24-4c26-a9d63ba5001b">
+      <Execution id="29bf5b00-5d54-4f31-8e2a-4550efab28f4" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="BookingAdminHttpFiltersAndTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.ProfileValidation(email: &quot;a@b.com&quot;, phone: &quot;0901234567&quot;, cccd: &quot;001234567890&quot;, expected: True)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="458edd08-16e6-1305-0533-3c36250a86cd">
+      <Execution id="d7381a4b-05b1-4755-9277-73255c01fd6b" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="ProfileValidation" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.BookingSnapshotAndTamperedPricesIgnored" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="421ffc32-9a28-6f03-dcc3-0f5483be9ccd">
+      <Execution id="a293b129-9130-4dd7-88e6-f0e105fa32e2" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="BookingSnapshotAndTamperedPricesIgnored" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.InvalidNights(days: -1)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="13eee5fe-c597-0a1f-96a1-9ba184f056cf">
+      <Execution id="edc518df-54a2-4968-bdfa-3ea13f21b8f9" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="InvalidNights" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.FailedMultiRoomCheckinRollsBackAndClearsTrackedChanges" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="ed1561d8-4d36-4e44-71d3-f739fda5be3f">
+      <Execution id="14b509b9-2c57-460d-8962-3ad6a0e8a198" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="FailedMultiRoomCheckinRollsBackAndClearsTrackedChanges" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 1, to: 0, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="cc27ce8f-7e63-a058-c1df-e0342d4f20e6">
+      <Execution id="66a7dfad-74bf-4933-a670-afd0151898b9" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.FutureBirthDateRejected" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="811db1b7-86d1-78a9-2fcf-ee21998915f0">
+      <Execution id="e500238c-a97b-42fe-ab23-4330e8baa71b" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="FutureBirthDateRejected" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.SearchFilterSortPageAndLinks" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="e84487ee-d05a-4bb5-1c57-468f2ce2e298">
+      <Execution id="d90662f8-1fbc-4454-8217-2049cb659c51" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="SearchFilterSortPageAndLinks" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 0, to: 2, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="cba351b9-cb65-eaf4-a4c2-26d6fa663d53">
+      <Execution id="e8c6d6c3-013a-40be-8621-8a6e0e80e71b" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.CancellationAndFutureCheckinRules" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="3f209c05-426b-e479-b010-e80a5baddcea">
+      <Execution id="665ce151-843e-4557-9a80-446e7187afcf" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="CancellationAndFutureCheckinRules" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 0, to: 4, expected: True)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="01d7e430-c5ab-1f9b-cd98-5ba04e898d6a">
+      <Execution id="66e36c8f-96f0-4d5e-8605-5bcfb18b2d67" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.CustomerDisabledCannotBookAndValidationShowsMessages" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="42798f99-6a4a-4192-dfed-3135482e665c">
+      <Execution id="0b9ada8c-4548-484d-9e60-d4a3aff57468" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="CustomerDisabledCannotBookAndValidationShowsMessages" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.MigrationSeedAndStatisticsReconcile" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="422632ce-6e44-f895-4e29-7779bfd33e44">
+      <Execution id="57184b8b-705a-436f-9dec-ac747500153b" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="MigrationSeedAndStatisticsReconcile" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.RoomEditPreservesHistoryAndPriceSnapshot" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="e1632fb1-757e-dd11-444d-238cca8f6418">
+      <Execution id="57beb04b-0165-4cd6-9dc2-61c6d172179c" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="RoomEditPreservesHistoryAndPriceSnapshot" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 2, to: 2, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="f0694b10-6157-3379-e668-8a017678f349">
+      <Execution id="04f1af10-b900-47c5-afbf-9ff8499663d1" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 4, to: 4, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="bc591e68-3ce4-5843-3e97-8ca8bc3b8a5d">
+      <Execution id="90a2e362-81c6-4f8c-b61c-7eea29539a18" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.SqlConstraintsEnforceUniquenessAndRestrictDeletes" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="ffc6d860-f8e9-1f2e-b27d-7cbcdb27ef79">
+      <Execution id="db61a39a-31c4-46a5-b693-ccd6a5e48527" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="SqlConstraintsEnforceUniquenessAndRestrictDeletes" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.PublicAndAdminViewsHaveNoDeadRoutes" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="74eac4bf-98ad-9417-f4a1-6cc6c84831d4">
+      <Execution id="3caf47c6-c577-4581-b744-4388914cf742" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="PublicAndAdminViewsHaveNoDeadRoutes" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.ProfileValidation(email: &quot;a@b.com&quot;, phone: &quot;1234&quot;, cccd: &quot;001234567890&quot;, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="84580aff-8f5e-9547-9561-4ab462a7476c">
+      <Execution id="acef879f-4430-4146-a7a0-770fa56193a9" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="ProfileValidation" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 0, to: 0, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="6f69fdd2-828a-8ee8-ba6f-32da4c02f24b">
+      <Execution id="285999e6-d10f-465b-92eb-0faa040c5b74" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 2, to: 4, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="e5d36042-ea3d-b974-cfc5-5d59bcc10122">
+      <Execution id="e676b7ca-4351-4d2c-b639-219bd2837c1f" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.StateLifecycleUpdatesRoomAndRejectsInvalidMoves" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="7dcb6d31-ccf9-5351-db50-0234725c16a8">
+      <Execution id="ce06c085-b002-4f21-ad2c-6fbab7cfbf62" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="StateLifecycleUpdatesRoomAndRejectsInvalidMoves" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.ProductionSmokeTests.ProductionDoesNotMigrateOrSeedEvenWhenDemoSettingIsTrue" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="9f62b1fb-c068-e756-7952-28cb407e7c62">
+      <Execution id="fb58ab40-246d-486c-aad7-f96157c2942c" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.ProductionSmokeTests" name="ProductionDoesNotMigrateOrSeedEvenWhenDemoSettingIsTrue" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.ProductionSmokeTests.ProductionLoginUsesSecureCookiesAndGuardsAdmin" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="082699c4-0607-42b1-ad2a-e54206e917f6">
+      <Execution id="916e0b61-e7fa-4d76-b154-c7bb16876584" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.ProductionSmokeTests" name="ProductionLoginUsesSecureCookiesAndGuardsAdmin" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.HalfOpenIntervals(a: 2, b: 4, c: 0, d: 2, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="0de71340-7286-0d23-af5f-91cab0caf13c">
+      <Execution id="43e3a006-3434-44cc-b4b5-e25fd6650771" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="HalfOpenIntervals" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.CrudValidationUniquenessAndForeignKeys" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="b707be1f-754a-85b0-d403-dfa398dc91a8">
+      <Execution id="03b95cf1-c51b-43b2-88d9-85b103ba2290" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="CrudValidationUniquenessAndForeignKeys" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.HalfOpenIntervals(a: 2, b: 4, c: 0, d: 5, expected: True)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="27fde6f7-0ebd-b0bc-35a2-28c128b77956">
+      <Execution id="6bca3920-a7a2-46ec-a9df-078118356344" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="HalfOpenIntervals" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 4, to: 0, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="0a26e534-d329-ba7d-da8f-e6f52316dbb5">
+      <Execution id="9eeb5a8e-9d3d-4bf8-a94b-9db0cc2d4f81" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.DecimalPriceBindsWithoutCultureDrift(price: &quot;700000.25&quot;)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="1495f852-fc0f-5718-d0a0-2dd039637b41">
+      <Execution id="b78a60ed-0f74-4a2e-9eee-04171bf75f95" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="DecimalPriceBindsWithoutCultureDrift" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.RoomTypeValidation(name: &quot;&quot;, people: 0, price: 0, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="b5ec02a5-d54d-8efd-b6b0-a8c3a1b7576d">
+      <Execution id="1f085c8d-ed88-4dcc-a62c-87bdbf3d455a" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="RoomTypeValidation" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.InvalidBookingsNeverPersist" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="c467d425-fc53-2b36-2d72-5ad4fe5d9aa7">
+      <Execution id="0946e33f-86d0-46d4-8b00-899fabf84be6" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="InvalidBookingsNeverPersist" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 2, to: 0, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="7be7e8b4-f730-8e34-7bbe-6958a6fa21c5">
+      <Execution id="3df8fa37-7e12-43da-aa0e-36ea201ebc1b" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.AccountCreationAndSelfLockProtection" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="df758493-c448-2b6a-6259-2dca5f00b76f">
+      <Execution id="8b8ca5ed-4635-4781-9ebd-c20d7c67b3ce" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="AccountCreationAndSelfLockProtection" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.RoomTypeValidation(name: &quot;Deluxe&quot;, people: -1, price: 100, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="62d71ee8-3dbe-dd2a-d446-530aee63a941">
+      <Execution id="684557c0-357a-47ca-9f2c-15ffb5b5e557" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="RoomTypeValidation" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.HalfOpenIntervals(a: 0, b: 2, c: 2, d: 4, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="adeb3ff2-0a5d-b241-baab-199ba7238b3f">
+      <Execution id="7ad3f436-e350-4cc1-91ab-35aada2d3148" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="HalfOpenIntervals" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.HalfOpenIntervals(a: 0, b: 1, c: 3, d: 4, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="7c0af368-4c1d-b1bf-de88-96ead34cf3f1">
+      <Execution id="0dea110a-c130-4fbb-af9e-ad7e6fc79e77" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="HalfOpenIntervals" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.Nights(days: 2, expected: 2)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="a5ce3ce3-ca10-9c03-dde1-32b995de7abc">
+      <Execution id="c9076e92-b1ed-48f5-94c4-b315fd6e8694" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="Nights" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.RoomTypeValidation(name: &quot;Deluxe&quot;, people: 2, price: 100, expected: True)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="81129577-a35b-b6ef-0014-ecc65f783952">
+      <Execution id="36904b7f-a87d-49d4-9f86-a6161a53ba32" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="RoomTypeValidation" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.Nights(days: 1, expected: 1)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="fc51e664-b932-06e8-78c5-dda7f6e3acc4">
+      <Execution id="2a27bba1-d076-402b-9f6f-80e5bb82e7b8" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="Nights" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.InvalidNights(days: 366)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="14a8f253-feb3-c673-d246-817f16c6ea3e">
+      <Execution id="da2369d5-29c2-46f9-bb94-15c6786ca50c" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="InvalidNights" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 4, to: 3, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="144bbd5e-5957-4d1c-dad3-085ac690599a">
+      <Execution id="968eeb5a-c120-4fe8-9ccc-fa0f7183bc16" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.ProductionSmokeTests.ProductionRedirectsHttpAndAddsHstsOnHttps" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="1cdf310f-fb89-f93e-7a5d-563a7505b561">
+      <Execution id="2aee0ba2-3b81-4044-8d71-29f9e2021bee" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.ProductionSmokeTests" name="ProductionRedirectsHttpAndAddsHstsOnHttps" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 2, to: 1, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="cfe130a8-b107-a2a9-f43a-f947dcc85cd4">
+      <Execution id="a5292d38-75a3-40de-a72e-83831a85fc69" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.MoneyScaleValidation(price: &quot;1.001&quot;, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="31850c96-5aef-552f-b85f-376b509a6266">
+      <Execution id="2c5fab19-7239-488f-96de-fb72a59518b1" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="MoneyScaleValidation" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.LoginWrongLockedLogoutAndServerGuards" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="c3e4daca-b114-efa8-f46d-ffff8ac9bc6d">
+      <Execution id="6a05016c-6fa7-4710-b5bc-d125b5eefb45" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="LoginWrongLockedLogoutAndServerGuards" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 0, to: 1, expected: True)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="1deff506-9708-7bc7-d91c-c93cb76af367">
+      <Execution id="efba004a-6872-4e00-bdff-fe5aae6ea9ea" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.HalfOpenIntervals(a: 0, b: 5, c: 1, d: 2, expected: True)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="7e14847c-c0a9-0e48-78b7-61e2ad8dd70e">
+      <Execution id="911f6a3a-6abc-417e-a90e-593af0b79753" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="HalfOpenIntervals" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.MoneyScaleValidation(price: &quot;1.25&quot;, expected: True)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="4929a694-dc8f-4ae3-0e3b-e64e3c3809af">
+      <Execution id="60048c22-7879-4ee5-8dfb-cb74451572c5" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="MoneyScaleValidation" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.RoomTypeValidation(name: &quot;Deluxe&quot;, people: 2, price: -1, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="b22ac562-326a-768d-1a40-69aed0811cd4">
+      <Execution id="7e42ee71-65da-4bf1-9fda-5bee21f4533d" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="RoomTypeValidation" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 1, to: 3, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="eb151b58-0bc0-c932-9cfb-0d88614f8193">
+      <Execution id="885143b9-cd3a-491c-8a0a-5e4fd1129d50" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.ProfileValidation(email: &quot;bad&quot;, phone: &quot;0901234567&quot;, cccd: &quot;001234567890&quot;, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="1bd82466-f2dc-4325-bcbe-c55ea8adaa84">
+      <Execution id="2eda850e-dae2-4710-a326-437e2c2fcfc6" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="ProfileValidation" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.ProductionSmokeTests.ProductionErrorPageDoesNotExposeDatabaseException" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="56a81128-cda8-ea07-2f8f-a71de7b15107">
+      <Execution id="63c93ad3-c0b3-4468-bb7e-9d1eb5ebbd50" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.ProductionSmokeTests" name="ProductionErrorPageDoesNotExposeDatabaseException" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 3, to: 1, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="88c822ea-28b8-aa14-18b9-d31d7f2af530">
+      <Execution id="cb2da6b0-65a0-47a2-8184-e5ab98ba0ad4" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.ProfileValidation(email: &quot;a@b.com&quot;, phone: &quot;0901234567&quot;, cccd: &quot;123&quot;, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="0c5d1925-b2b6-f8d8-fc56-8bb9f6662f7c">
+      <Execution id="802e5894-3eb2-4dcc-88d8-77e403efcf94" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="ProfileValidation" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 3, to: 2, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="46b488f0-1dab-6502-cb2d-0ff204d12c45">
+      <Execution id="55fcb375-5f53-4d68-9c8e-d1e07ceb2257" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 0, to: 3, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="8d733c8a-ddfe-f0cd-e662-ce749cad3f01">
+      <Execution id="b76963cd-c242-4ac8-bbba-79700a0714bc" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 4, to: 1, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="34b1b512-5293-20b4-095b-24449710de89">
+      <Execution id="3e65b925-0d42-4ed5-a725-6e3e781c0b29" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 2, to: 3, expected: True)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="f21e4795-0579-3ecb-fd39-c1cdfa2afffe">
+      <Execution id="12a2b945-9c23-48d5-a6b2-7cc0c3c83d68" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 4, to: 2, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="d0a3359d-c9e7-c23f-1ca8-01c9a5b29751">
+      <Execution id="579481bf-359d-41e3-b3fe-47a7e96072e9" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.CustomerOwnershipAndAntiforgery" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="27ddaa71-e504-6f92-1cdc-8eba0f75ae6e">
+      <Execution id="50bb3a03-281f-486c-96d8-152ca36fc753" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="CustomerOwnershipAndAntiforgery" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 3, to: 3, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="31b37462-35d2-5156-1d14-d3a2cf6e1300">
+      <Execution id="d55adff0-4a95-42e5-8b05-2670a4b28293" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.TypeStatusValidationAndTypeEdit" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="9b96fb52-b91e-3c81-7aa0-15b7cbb4b523">
+      <Execution id="fc8f8c4e-6b9d-43b8-a50e-94e332e8da8a" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="TypeStatusValidationAndTypeEdit" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 3, to: 0, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="318b4636-dbec-3720-279e-3bca60e3c6ee">
+      <Execution id="995175dd-0853-4f7a-8892-65280905e3a1" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 1, to: 1, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="2acf7768-0611-1892-b35a-fbeaba01d498">
+      <Execution id="f0c34252-52c3-4870-b62e-398bdab156e4" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.MultiRoomRollbackAndMoney" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="24bb87d8-10e6-c5ef-437b-ea79b80beddd">
+      <Execution id="c0b94a36-b71d-4504-a12b-6c2b314e8a66" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="MultiRoomRollbackAndMoney" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.AdminPostsAndLockedSessionRevalidated" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="a45bced9-27b6-bd50-1e20-0fc156bf807e">
+      <Execution id="f33add74-fc61-413b-a982-a519e88b73c3" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="AdminPostsAndLockedSessionRevalidated" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.SqlWebTests.DecimalPriceBindsWithoutCultureDrift(price: &quot;700000,25&quot;)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="05f32f4d-088c-a2b7-53d5-c9a23ecbcbba">
+      <Execution id="ba0f3289-dbfc-480e-a064-a69cec2b6648" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.SqlWebTests" name="DecimalPriceBindsWithoutCultureDrift" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 3, to: 4, expected: False)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="e8d0670a-e55e-976b-8070-bce4efa59653">
+      <Execution id="991ba196-4de4-4319-bbff-1c7eb93a613f" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.HalfOpenIntervals(a: 0, b: 2, c: 1, d: 3, expected: True)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="2e4560a7-51f9-e831-33fa-2d8fed196ff9">
+      <Execution id="f3ddf7ee-4e69-4a33-a320-13de31c8d9ff" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="HalfOpenIntervals" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 1, to: 4, expected: True)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="19f2dc41-b63f-f178-ce26-fc42799e9266">
+      <Execution id="e2b22435-8355-4825-9853-f2d676229dc0" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.Nights(days: 365, expected: 365)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="006a55eb-8ee1-0991-57d7-b04881a04352">
+      <Execution id="db408809-92aa-42af-b1b6-6cce3e8626df" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="Nights" />
+    </UnitTest>
+    <UnitTest name="QuanLyKhachSan.Tests.BookingRulesTests.AllTransitions(from: 1, to: 2, expected: True)" storage="d:\nhom6_detai5\tests\quanlykhachsan.tests\bin\release\net10.0\quanlykhachsan.tests.dll" id="6b3d9770-2791-c164-b358-287a43bb97df">
+      <Execution id="8f08f14d-c0b7-4a6b-b847-b17607816397" />
+      <TestMethod codeBase="D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="QuanLyKhachSan.Tests.BookingRulesTests" name="AllTransitions" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="7be7e8b4-f730-8e34-7bbe-6958a6fa21c5" executionId="3df8fa37-7e12-43da-aa0e-36ea201ebc1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31850c96-5aef-552f-b85f-376b509a6266" executionId="2c5fab19-7239-488f-96de-fb72a59518b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffc6d860-f8e9-1f2e-b27d-7cbcdb27ef79" executionId="db61a39a-31c4-46a5-b693-ccd6a5e48527" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1495f852-fc0f-5718-d0a0-2dd039637b41" executionId="b78a60ed-0f74-4a2e-9eee-04171bf75f95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24bb87d8-10e6-c5ef-437b-ea79b80beddd" executionId="c0b94a36-b71d-4504-a12b-6c2b314e8a66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84580aff-8f5e-9547-9561-4ab462a7476c" executionId="acef879f-4430-4146-a7a0-770fa56193a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14a8f253-feb3-c673-d246-817f16c6ea3e" executionId="da2369d5-29c2-46f9-bb94-15c6786ca50c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfe130a8-b107-a2a9-f43a-f947dcc85cd4" executionId="a5292d38-75a3-40de-a72e-83831a85fc69" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e73a97c6-8bfe-1d94-7765-d0bf2f6c7486" executionId="3acfe665-82bb-47ae-a5cc-09d19e91bad2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc591e68-3ce4-5843-3e97-8ca8bc3b8a5d" executionId="90a2e362-81c6-4f8c-b61c-7eea29539a18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b3d9770-2791-c164-b358-287a43bb97df" executionId="8f08f14d-c0b7-4a6b-b847-b17607816397" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2acf7768-0611-1892-b35a-fbeaba01d498" executionId="f0c34252-52c3-4870-b62e-398bdab156e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="458edd08-16e6-1305-0533-3c36250a86cd" executionId="d7381a4b-05b1-4755-9277-73255c01fd6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a26e534-d329-ba7d-da8f-e6f52316dbb5" executionId="9eeb5a8e-9d3d-4bf8-a94b-9db0cc2d4f81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c5d1925-b2b6-f8d8-fc56-8bb9f6662f7c" executionId="802e5894-3eb2-4dcc-88d8-77e403efcf94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19f2dc41-b63f-f178-ce26-fc42799e9266" executionId="e2b22435-8355-4825-9853-f2d676229dc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f62b1fb-c068-e756-7952-28cb407e7c62" executionId="fb58ab40-246d-486c-aad7-f96157c2942c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8af7041-cfc9-5e24-4c26-a9d63ba5001b" executionId="29bf5b00-5d54-4f31-8e2a-4550efab28f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56a81128-cda8-ea07-2f8f-a71de7b15107" executionId="63c93ad3-c0b3-4468-bb7e-9d1eb5ebbd50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="422632ce-6e44-f895-4e29-7779bfd33e44" executionId="57184b8b-705a-436f-9dec-ac747500153b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4929a694-dc8f-4ae3-0e3b-e64e3c3809af" executionId="60048c22-7879-4ee5-8dfb-cb74451572c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3e4daca-b114-efa8-f46d-ffff8ac9bc6d" executionId="6a05016c-6fa7-4710-b5bc-d125b5eefb45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="421ffc32-9a28-6f03-dcc3-0f5483be9ccd" executionId="a293b129-9130-4dd7-88e6-f0e105fa32e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b707be1f-754a-85b0-d403-dfa398dc91a8" executionId="03b95cf1-c51b-43b2-88d9-85b103ba2290" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0a3359d-c9e7-c23f-1ca8-01c9a5b29751" executionId="579481bf-359d-41e3-b3fe-47a7e96072e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81129577-a35b-b6ef-0014-ecc65f783952" executionId="36904b7f-a87d-49d4-9f86-a6161a53ba32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46b488f0-1dab-6502-cb2d-0ff204d12c45" executionId="55fcb375-5f53-4d68-9c8e-d1e07ceb2257" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc51e664-b932-06e8-78c5-dda7f6e3acc4" executionId="2a27bba1-d076-402b-9f6f-80e5bb82e7b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="adeb3ff2-0a5d-b241-baab-199ba7238b3f" executionId="7ad3f436-e350-4cc1-91ab-35aada2d3148" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e5d36042-ea3d-b974-cfc5-5d59bcc10122" executionId="e676b7ca-4351-4d2c-b639-219bd2837c1f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f209c05-426b-e479-b010-e80a5baddcea" executionId="665ce151-843e-4557-9a80-446e7187afcf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e14847c-c0a9-0e48-78b7-61e2ad8dd70e" executionId="911f6a3a-6abc-417e-a90e-593af0b79753" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b22ac562-326a-768d-1a40-69aed0811cd4" executionId="7e42ee71-65da-4bf1-9fda-5bee21f4533d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df758493-c448-2b6a-6259-2dca5f00b76f" executionId="8b8ca5ed-4635-4781-9ebd-c20d7c67b3ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c467d425-fc53-2b36-2d72-5ad4fe5d9aa7" executionId="0946e33f-86d0-46d4-8b00-899fabf84be6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42798f99-6a4a-4192-dfed-3135482e665c" executionId="0b9ada8c-4548-484d-9e60-d4a3aff57468" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31b37462-35d2-5156-1d14-d3a2cf6e1300" executionId="d55adff0-4a95-42e5-8b05-2670a4b28293" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f69fdd2-828a-8ee8-ba6f-32da4c02f24b" executionId="285999e6-d10f-465b-92eb-0faa040c5b74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb151b58-0bc0-c932-9cfb-0d88614f8193" executionId="885143b9-cd3a-491c-8a0a-5e4fd1129d50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a5ce3ce3-ca10-9c03-dde1-32b995de7abc" executionId="c9076e92-b1ed-48f5-94c4-b315fd6e8694" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e4560a7-51f9-e831-33fa-2d8fed196ff9" executionId="f3ddf7ee-4e69-4a33-a320-13de31c8d9ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d733c8a-ddfe-f0cd-e662-ce749cad3f01" executionId="b76963cd-c242-4ac8-bbba-79700a0714bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1632fb1-757e-dd11-444d-238cca8f6418" executionId="57beb04b-0165-4cd6-9dc2-61c6d172179c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5ec02a5-d54d-8efd-b6b0-a8c3a1b7576d" executionId="1f085c8d-ed88-4dcc-a62c-87bdbf3d455a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1bd82466-f2dc-4325-bcbe-c55ea8adaa84" executionId="2eda850e-dae2-4710-a326-437e2c2fcfc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8d0670a-e55e-976b-8070-bce4efa59653" executionId="991ba196-4de4-4319-bbff-1c7eb93a613f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5591c19a-8086-5bd8-b4de-a66ca43e21ce" executionId="246e53d8-ac08-4d55-8923-b42c89c5ef24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05f32f4d-088c-a2b7-53d5-c9a23ecbcbba" executionId="ba0f3289-dbfc-480e-a064-a69cec2b6648" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0694b10-6157-3379-e668-8a017678f349" executionId="04f1af10-b900-47c5-afbf-9ff8499663d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f21e4795-0579-3ecb-fd39-c1cdfa2afffe" executionId="12a2b945-9c23-48d5-a6b2-7cc0c3c83d68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="811db1b7-86d1-78a9-2fcf-ee21998915f0" executionId="e500238c-a97b-42fe-ab23-4330e8baa71b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13eee5fe-c597-0a1f-96a1-9ba184f056cf" executionId="edc518df-54a2-4968-bdfa-3ea13f21b8f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1deff506-9708-7bc7-d91c-c93cb76af367" executionId="efba004a-6872-4e00-bdff-fe5aae6ea9ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88c822ea-28b8-aa14-18b9-d31d7f2af530" executionId="cb2da6b0-65a0-47a2-8184-e5ab98ba0ad4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74eac4bf-98ad-9417-f4a1-6cc6c84831d4" executionId="3caf47c6-c577-4581-b744-4388914cf742" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="318b4636-dbec-3720-279e-3bca60e3c6ee" executionId="995175dd-0853-4f7a-8892-65280905e3a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc27ce8f-7e63-a058-c1df-e0342d4f20e6" executionId="66a7dfad-74bf-4933-a670-afd0151898b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7dcb6d31-ccf9-5351-db50-0234725c16a8" executionId="ce06c085-b002-4f21-ad2c-6fbab7cfbf62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cba351b9-cb65-eaf4-a4c2-26d6fa663d53" executionId="e8c6d6c3-013a-40be-8621-8a6e0e80e71b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b96fb52-b91e-3c81-7aa0-15b7cbb4b523" executionId="fc8f8c4e-6b9d-43b8-a50e-94e332e8da8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34b1b512-5293-20b4-095b-24449710de89" executionId="3e65b925-0d42-4ed5-a725-6e3e781c0b29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="082699c4-0607-42b1-ad2a-e54206e917f6" executionId="916e0b61-e7fa-4d76-b154-c7bb16876584" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="144bbd5e-5957-4d1c-dad3-085ac690599a" executionId="968eeb5a-c120-4fe8-9ccc-fa0f7183bc16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed1561d8-4d36-4e44-71d3-f739fda5be3f" executionId="14b509b9-2c57-460d-8962-3ad6a0e8a198" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="006a55eb-8ee1-0991-57d7-b04881a04352" executionId="db408809-92aa-42af-b1b6-6cce3e8626df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27ddaa71-e504-6f92-1cdc-8eba0f75ae6e" executionId="50bb3a03-281f-486c-96d8-152ca36fc753" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27fde6f7-0ebd-b0bc-35a2-28c128b77956" executionId="6bca3920-a7a2-46ec-a9df-078118356344" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a45bced9-27b6-bd50-1e20-0fc156bf807e" executionId="f33add74-fc61-413b-a982-a519e88b73c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e84487ee-d05a-4bb5-1c57-468f2ce2e298" executionId="d90662f8-1fbc-4454-8217-2049cb659c51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cdf310f-fb89-f93e-7a5d-563a7505b561" executionId="2aee0ba2-3b81-4044-8d71-29f9e2021bee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c0af368-4c1d-b1bf-de88-96ead34cf3f1" executionId="0dea110a-c130-4fbb-af9e-ad7e6fc79e77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01d7e430-c5ab-1f9b-cd98-5ba04e898d6a" executionId="66e36c8f-96f0-4d5e-8605-5bcfb18b2d67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62d71ee8-3dbe-dd2a-d446-530aee63a941" executionId="684557c0-357a-47ca-9f2c-15ffb5b5e557" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0de71340-7286-0d23-af5f-91cab0caf13c" executionId="43e3a006-3434-44cc-b4b5-e25fd6650771" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="74" executed="74" passed="74" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v4.0.1+0f7d528729 (64-bit .NET 10.0.12)&#xD;
+[xUnit.net 00:00:00.75]   Discovering: QuanLyKhachSan.Tests&#xD;
+[xUnit.net 00:00:00.90]   Discovered:  QuanLyKhachSan.Tests&#xD;
+[xUnit.net 00:00:00.93]   Starting:    QuanLyKhachSan.Tests&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Production&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Production&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Production&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+fail: Microsoft.EntityFrameworkCore.Database.Connection[20004]&#xD;
+      An error occurred using the connection to database 'Nhom6_Test_84c9c4e039db4e46a34d8fb03aef3308' on server '(localdb)\Nhom6DeTai05'.&#xD;
+fail: Microsoft.EntityFrameworkCore.Query[10100]&#xD;
+      An exception occurred while iterating over the results of a query for context type 'QuanLyKhachSan_UNETI06_TI17A2ND.Data.HotelDbContext'.&#xD;
+      System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.&#xD;
+       ---&gt; Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nhom6_Test_84c9c4e039db4e46a34d8fb03aef3308" requested by the login. The login failed.&#xD;
+      Login failed for user 'THO-OAI\LEGION 5'.&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)&#xD;
+         at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)&#xD;
+         at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)&#xD;
+         at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)&#xD;
+         at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)&#xD;
+         at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)&#xD;
+         at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)&#xD;
+      ClientConnectionId:abd6c4b8-032c-402a-ad31-a6a9fad4b15c&#xD;
+      Error Number:4060,State:1,Class:11&#xD;
+         --- End of inner exception stack trace ---&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()&#xD;
+      System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.&#xD;
+       ---&gt; Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nhom6_Test_84c9c4e039db4e46a34d8fb03aef3308" requested by the login. The login failed.&#xD;
+      Login failed for user 'THO-OAI\LEGION 5'.&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)&#xD;
+         at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)&#xD;
+         at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)&#xD;
+         at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)&#xD;
+         at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)&#xD;
+         at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)&#xD;
+         at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)&#xD;
+      ClientConnectionId:abd6c4b8-032c-402a-ad31-a6a9fad4b15c&#xD;
+      Error Number:4060,State:1,Class:11&#xD;
+         --- End of inner exception stack trace ---&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()&#xD;
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]&#xD;
+      An unhandled exception has occurred while executing the request.&#xD;
+      System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure' to the 'UseSqlServer' call.&#xD;
+       ---&gt; Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "Nhom6_Test_84c9c4e039db4e46a34d8fb03aef3308" requested by the login. The login failed.&#xD;
+      Login failed for user 'THO-OAI\LEGION 5'.&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)&#xD;
+         at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)&#xD;
+         at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)&#xD;
+         at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)&#xD;
+         at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)&#xD;
+         at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal&amp; connection)&#xD;
+         at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)&#xD;
+      ClientConnectionId:abd6c4b8-032c-402a-ad31-a6a9fad4b15c&#xD;
+      Error Number:4060,State:1,Class:11&#xD;
+         --- End of inner exception stack trace ---&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()&#xD;
+         at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)&#xD;
+         at QuanLyKhachSan_UNETI06_TI17A2ND.Services.RoomSearch.Find(PhongQuery f) in D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND\Services\RoomSearch.cs:line 23&#xD;
+         at QuanLyKhachSan_UNETI06_TI17A2ND.Controllers.PhongController.Index(PhongQuery f) in D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND\Controllers\PhongController.cs:line 18&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeNextResourceFilter&gt;g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;
+         at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)&#xD;
+         at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)&#xD;
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.&lt;Invoke&gt;g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Production&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+warn: Microsoft.EntityFrameworkCore.Query[10103]&#xD;
+      The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.&#xD;
+fail: Microsoft.EntityFrameworkCore.Update[10000]&#xD;
+      An exception occurred in the database while saving changes for context type 'QuanLyKhachSan_UNETI06_TI17A2ND.Data.HotelDbContext'.&#xD;
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.&#xD;
+       ---&gt; Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Phongs' with unique index 'IX_Phongs_SoPhong'. The duplicate key value is (101).&#xD;
+         at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean&amp; moreRows)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean&amp; more)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)&#xD;
+      ClientConnectionId:306d92d7-7057-4e86-9eb7-93e86eb7f328&#xD;
+      Error Number:2601,State:1,Class:14&#xD;
+         --- End of inner exception stack trace ---&#xD;
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)&#xD;
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.&#xD;
+       ---&gt; Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Phongs' with unique index 'IX_Phongs_SoPhong'. The duplicate key value is (101).&#xD;
+         at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean&amp; moreRows)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean&amp; more)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)&#xD;
+      ClientConnectionId:306d92d7-7057-4e86-9eb7-93e86eb7f328&#xD;
+      Error Number:2601,State:1,Class:14&#xD;
+         --- End of inner exception stack trace ---&#xD;
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)&#xD;
+warn: Microsoft.EntityFrameworkCore.Query[10103]&#xD;
+      The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.&#xD;
+fail: Microsoft.EntityFrameworkCore.Update[10000]&#xD;
+      An exception occurred in the database while saving changes for context type 'QuanLyKhachSan_UNETI06_TI17A2ND.Data.HotelDbContext'.&#xD;
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.&#xD;
+       ---&gt; Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_Phongs_LoaiPhongs_MaLoaiPhong". The conflict occurred in database "Nhom6_Test_53b821e6908b45e1b528cd5ad659bca2", table "dbo.Phongs", column 'MaLoaiPhong'.&#xD;
+         at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean&amp; moreRows)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean&amp; more)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)&#xD;
+      ClientConnectionId:306d92d7-7057-4e86-9eb7-93e86eb7f328&#xD;
+      Error Number:547,State:0,Class:16&#xD;
+         --- End of inner exception stack trace ---&#xD;
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)&#xD;
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.&#xD;
+       ---&gt; Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_Phongs_LoaiPhongs_MaLoaiPhong". The conflict occurred in database "Nhom6_Test_53b821e6908b45e1b528cd5ad659bca2", table "dbo.Phongs", column 'MaLoaiPhong'.&#xD;
+         at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;
+         at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)&#xD;
+         at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean&amp; dataReady)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean&amp; moreRows)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean&amp; more)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)&#xD;
+         at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)&#xD;
+      ClientConnectionId:306d92d7-7057-4e86-9eb7-93e86eb7f328&#xD;
+      Error Number:547,State:0,Class:16&#xD;
+         --- End of inner exception stack trace ---&#xD;
+         at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)&#xD;
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]&#xD;
+      Failed executing DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p3='?' (DbType = Int32), @p4='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']&#xD;
+      SET IMPLICIT_TRANSACTIONS OFF;&#xD;
+      SET NOCOUNT ON;&#xD;
+      INSERT INTO [ChiTiets] ([MaPhieuDat], [MaPhong], [DonGiaDem], [SoDem], [ThanhTien])&#xD;
+      VALUES (@p0, @p1, @p2, @p3, @p4);&#xD;
+fail: Microsoft.EntityFrameworkCore.Update[10000]&#xD;
+      An exception occurred in the database while saving changes for context type 'QuanLyKhachSan_UNETI06_TI17A2ND.Data.HotelDbContext'.&#xD;
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.&#xD;
+       ---&gt; Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_ChiTiets_Phongs_MaPhong". The conflict occurred in database "Nhom6_Test_53b821e6908b45e1b528cd5ad659bca2", table "dbo.Phongs", column 'MaPhong'.&#xD;
+      The statement has been terminated.&#xD;
+         at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()&#xD;
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)&#xD;
+         at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&amp; currentTaskSlot, Thread threadPoolThread)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+      ClientConnectionId:306d92d7-7057-4e86-9eb7-93e86eb7f328&#xD;
+      Error Number:547,State:0,Class:16&#xD;
+         --- End of inner exception stack trace ---&#xD;
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)&#xD;
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.&#xD;
+       ---&gt; Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_ChiTiets_Phongs_MaPhong". The conflict occurred in database "Nhom6_Test_53b821e6908b45e1b528cd5ad659bca2", table "dbo.Phongs", column 'MaPhong'.&#xD;
+      The statement has been terminated.&#xD;
+         at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()&#xD;
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)&#xD;
+         at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&amp; currentTaskSlot, Thread threadPoolThread)&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+      ClientConnectionId:306d92d7-7057-4e86-9eb7-93e86eb7f328&#xD;
+      Error Number:547,State:0,Class:16&#xD;
+         --- End of inner exception stack trace ---&#xD;
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)&#xD;
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application started. Press Ctrl+C to shut down.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Hosting environment: Development&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Content root path: D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20411]&#xD;
+      Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261016074658_InitialHotel'.&#xD;
+info: Microsoft.Hosting.Lifetime[0]&#xD;
+      Application is shutting down...&#xD;
+[xUnit.net 00:00:40.62]   Finished:    QuanLyKhachSan.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

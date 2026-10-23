@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+*.mdf
+*.ldf
+*.db
+*.log
+*.tmp
+.work/
+TestResults/
+deliverables/
+**/appsettings.Local.json
+**/appsettings.Production.json
+**/secrets.json

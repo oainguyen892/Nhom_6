@@ -1,0 +1,37 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuanLyKhachSan_UNETI06_TI17A2ND -> D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND\bin\Release\net10.0\QuanLyKhachSan_UNETI06_TI17A2ND.dll
+  QuanLyKhachSan.Tests -> D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll
+Test run for D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:02.82]     QuanLyKhachSan.Tests.SqlWebTests.MigrationSeedAndStatisticsReconcile [FAIL]
+  Failed QuanLyKhachSan.Tests.SqlWebTests.MigrationSeedAndStatisticsReconcile [273 ms]
+  Error Message:
+   Assert.All() Failure: 11 out of 18 items in the collection did not pass.
+[0]:  Item:  PhieuDatPhong { ChiTiets = [], KhachHang = null, MaKhachHang = 1, MaPhieuDat = 1, NgayDat = 2026-10-21T00:00:00.0000000, ··· }
+      Error: Ngày tạo phiếu mẫu không được nằm trong tương lai.
+[1]:  Item:  PhieuDatPhong { ChiTiets = [], KhachHang = null, MaKhachHang = 2, MaPhieuDat = 2, NgayDat = 2026-10-22T00:00:00.0000000, ··· }
+      Error: Ngày tạo phiếu mẫu không được nằm trong tương lai.
+[4]:  Item:  PhieuDatPhong { ChiTiets = [], KhachHang = null, MaKhachHang = 5, MaPhieuDat = 5, NgayDat = 2026-10-25T00:00:00.0000000, ··· }
+      Error: Ngày tạo phiếu mẫu không được nằm trong tương lai.
+[5]:  Item:  PhieuDatPhong { ChiTiets = [], KhachHang = null, MaKhachHang = 6, MaPhieuDat = 6, NgayDat = 2026-10-26T00:00:00.0000000, ··· }
+      Error: Ngày tạo phiếu mẫu không được nằm trong tương lai.
+[6]:  Item:  PhieuDatPhong { ChiTiets = [], KhachHang = null, MaKhachHang = 7, MaPhieuDat = 7, NgayDat = 2026-10-27T00:00:00.0000000, ··· }
+      Error: Ngày tạo phiếu mẫu không được nằm trong tương lai.
+[9]:  Item:  PhieuDatPhong { ChiTiets = [], KhachHang = null, MaKhachHang = 10, MaPhieuDat = 10, NgayDat = 2026-10-30T00:00:00.0000000, ··· }
+      Error: Ngày tạo phiếu mẫu không được nằm trong tương lai.
+[10]: Item:  PhieuDatPhong { ChiTiets = [], KhachHang = null, MaKhachHang = 11, MaPhieuDat = 11, NgayDat = 2026-10-31T00:00:00.0000000, ··· }
+      Error: Ngày tạo phiếu mẫu không được nằm trong tương lai.
+[11]: Item:  PhieuDatPhong { ChiTiets = [], KhachHang = null, MaKhachHang = 12, MaPhieuDat = 12, NgayDat = 2026-11-01T00:00:00.0000000, ··· }
+      Error: Ngày tạo phiếu mẫu không được nằm trong tương lai.
+[14]: Item:  PhieuDatPhong { ChiTiets = [], KhachHang = null, MaKhachHang = 15, MaPhieuDat = 15, NgayDat = 2026-11-04T00:00:00.0000000, ··· }
+      Error: Ngày tạo phiếu mẫu không được nằm trong tương lai.
+[15]: Item:  PhieuDatPhong { ChiTiets = [], KhachHang = null, MaKhachHang = 1, MaPhieuDat = 16, NgayDat = 2026-11-05T00:00:00.0000000, ··· }
+      Error: Ngày tạo phiếu mẫu không được nằm trong tương lai.
+[16]: Item:  PhieuDatPhong { ChiTiets = [], KhachHang = null, MaKhachHang = 2, MaPhieuDat = 17, NgayDat = 2026-11-06T00:00:00.0000000, ··· }
+      Error: Ngày tạo phiếu mẫu không được nằm trong tương lai.
+  Stack Trace:
+     at QuanLyKhachSan.Tests.SqlWebTests.MigrationSeedAndStatisticsReconcile() in D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\SqlWebTests.cs:line 71
+--- End of stack trace from previous location ---
+
+Failed!  - Failed:     1, Passed:     0, Skipped:     0, Total:     1, Duration: 2 s - QuanLyKhachSan.Tests.dll (net10.0)

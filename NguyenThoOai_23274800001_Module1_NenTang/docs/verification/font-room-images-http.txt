@@ -1,0 +1,10 @@
+/ => 200
+/Phong => 200
+/Phong/Details/1 => 200
+/Phong/Details/5 => 200
+/fonts/noto-sans-variable.ttf => 200
+/images/rooms/standard.png => 200
+/images/rooms/superior.png => 200
+/images/rooms/deluxe.png => 200
+/images/rooms/family.png => 200
+/images/rooms/suite.png => 200
