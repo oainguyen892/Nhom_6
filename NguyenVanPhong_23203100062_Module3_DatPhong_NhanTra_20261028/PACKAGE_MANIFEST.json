@@ -1,0 +1,27 @@
+{
+  "member": "Nguyễn Văn Phong",
+  "studentId": "23203100062",
+  "scope": "Module 3 — khách hàng, hồ sơ, đặt phòng; phiếu và nhận/trả phòng",
+  "branchSuggestion": "feature/phong-datphong",
+  "packageType": "source-overlay; not standalone",
+  "sourceFiles": {
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/DatPhongController.cs": "e6748e15df893e362944a994b1f1e2cb3a7b2462472b625052f160d6d93288bf",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/KhachHangController.cs": "d8054e82dac8fdef4b1b38aca7c58da60ff9dc2130bdef8c49dbd44a1a2cbf18",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/PhieuDatPhongController.cs": "c1919075507b27b0ac7b212174e7d767a7b588dc6f13c6c33b334876ea8521c7",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Services/BookingRules.cs": "8118cf74d23e01a71f1e950488949eb0b2069953cd9b7cf13879db356ede29ca",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Services/BookingService.cs": "f78ee9affe587a97a6073bc69444789d7696b07e2c1fb6180ba5a28eb008fd80",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/ViewModels/DatPhongForm.cs": "2d6e8495f8d545a52195b9bc29f6d88dc731bd97cbe9350a81b330256e6e44da",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/ViewModels/HoSoForm.cs": "02a10aa8655d431ca3c102bf1eadff1b5d7de2edc0a297c46b34a99bda2878dc",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/KhachHang/Details.cshtml": "b2fc679f406664240926f979c7296f28b5bc1202298ff9fb16264c2a6ad5c7f1",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/KhachHang/HoSo.cshtml": "92727dd284ee49bb140af48b925bc5b35bc83d092177ac31bdd0fa74b5a9bf27",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/KhachHang/Index.cshtml": "255d6707e8189298076f5b4371db068b5d9ab2f63126f361f2eb6bb09a315ebf",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/DatPhong/Create.cshtml": "1a00b8396b5cd47e94eb563db412cee5f847c531d2db2d6ff1c605dbc4efa334",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/DatPhong/Details.cshtml": "337fb5d88358c13afce94b6eae7ff22b182ce3031163a9f45e47c228f3b8daae",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/DatPhong/Index.cshtml": "5db13a43658ce254e2198cfc29a0ae4b0d42627d7d7f7f8b70f4b523f718d4f2",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/PhieuDatPhong/Details.cshtml": "7035c2b62ac546ef639060256f126364cbc2e898398ab66b03cec914710538e5",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/PhieuDatPhong/Index.cshtml": "9cf032e7f1c8b1b1e9a3384366e9e3e90c67c95d8e1705cd6d24b04bc2bd80c1",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Shared/_BookingDetails.cshtml": "8bb775ae148d4dcbb20873fb8375da46eabaea3bc4ca6a39622107b50a5815d2",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Shared/_BookingList.cshtml": "dcb25f273f03ae3b713671e02732715366ed9dc83264337f14780c27dc3b3a41"
+  },
+  "readmeSha256": "0f2396032a8970165e815af029631367895704b7f82484ca78deac9f44b55ef1"
+}

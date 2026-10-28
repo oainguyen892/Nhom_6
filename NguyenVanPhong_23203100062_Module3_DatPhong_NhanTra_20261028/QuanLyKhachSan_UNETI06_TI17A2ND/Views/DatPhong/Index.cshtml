@@ -1,0 +1,4 @@
+@model List<PhieuDatPhong>
+@{ ViewData["Title"] = (bool)ViewBag.LichSu ? "Lịch sử lưu trú" : "Phiếu của tôi"; }
+<div class="toolbar"><h1>@ViewData["Title"]</h1><a class="button" asp-action="Create">Đặt phòng</a></div><partial name="_BookingList" model="Model"/>
+@if(!(bool)ViewBag.LichSu){ foreach(var p in Model.Where(x => x.TrangThai is TrangThaiDat.ChoXacNhan or TrangThaiDat.DaXacNhan)){ <form asp-action="Huy" method="post" class="inline-form"><input type="hidden" name="id" value="@p.MaPhieuDat"/><button class="danger">Hủy @p.MaDatPhong</button></form> } }

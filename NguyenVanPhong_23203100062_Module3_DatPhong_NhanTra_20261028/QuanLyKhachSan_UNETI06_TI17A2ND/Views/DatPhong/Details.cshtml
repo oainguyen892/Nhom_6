@@ -1,0 +1,9 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Văn Phong
+Mã sinh viên: 23203100062
+Nội dung thực hiện: Phạm vi được giao - Module 3: quản lý khách hàng, hồ sơ, đặt phòng và chi tiết.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model PhieuDatPhong
+<p><a asp-controller="ThanhToan" asp-action="Quet" asp-route-token="@Model.MaQr">Mở thanh toán / mã QR</a></p>
+@{ViewData["Title"]="Chi tiết phiếu";}<partial name="_BookingDetails" model="Model"/><p><a asp-action="Index">Phiếu của tôi</a></p>
