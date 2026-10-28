@@ -1,0 +1,26 @@
+{
+  "member": "Đặng Tùng Dương",
+  "studentId": "23274800005",
+  "scope": "Module 2 — quản lý phòng; Dashboard và thống kê",
+  "branchSuggestion": "feature/duong-phong-thongke",
+  "packageType": "source-overlay; not standalone",
+  "sourceFiles": {
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/PhongController.cs": "345d566d93c624b836a3063d5fe9403d447c3166505b8dfa30f0b389b86dab67",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Controllers/ThongKeController.cs": "354943bcf8a2020db03a15c3c8c810b83ad1c413af5b9f28b8be48bb9c2f66f1",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Services/RoomSearch.cs": "45d495f728882e50de536e76838f244f6cad0b850fd254e395391c852a245d1e",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Services/StatisticsService.cs": "2ba1215b57fa13863263b8485c9cb826eaeaa5948c823adfa494a0b5dfe1db68",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/ViewModels/PhongQuery.cs": "63d9be1173f4dd9b1cdc40438b14a1b33ccce07d39dc3e35f4fd555adc763356",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/ViewModels/RoomIllustrations.cs": "cfe124d7ca5bc62db1667253b5ef92bbb13796795807e8589d09276d2df02f9a",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/ViewModels/StatisticsPage.cs": "78324a47124ec323da8e5aa668347de7fa7a64175e5abaf757082d352e03e911",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Phong/Details.cshtml": "30bbec08e29c164185a0e7784c71a36fc3a7685b2b16d42f6b125e538e3cd4b2",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Phong/Form.cshtml": "d722f0f9560a9ba9c346cf5373da85bb1192693274c498f07d4f7e93cd1a0b0d",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/Phong/Index.cshtml": "c28a9c64026b0633be75fcdf19487f9161db65097befb114ca24d09b74bea4f9",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/Views/ThongKe/Index.cshtml": "0203a3f22083747ce1e7056ec9df37b4769a0433d6ad6112b52ee17921d510e0",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/wwwroot/images/rooms/deluxe.png": "dca718b6568d2d7e0a94c79678fbfa421c72bd45be246214babbc5e231fe7e7c",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/wwwroot/images/rooms/family.png": "27181edad2be94c9ec3cf142e89ace6a0406e8e62e29276ced9ee9b99aa1c054",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/wwwroot/images/rooms/standard.png": "9cf676256c6f6892fa41af184d634870fa38f90ce0bf2d40d9f6d7d7470f5b01",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/wwwroot/images/rooms/suite.png": "e897a1c6051ab4b10cf682856bf7b17e5e263006e80a58aef8e9826817072b5f",
+    "QuanLyKhachSan_UNETI06_TI17A2ND/wwwroot/images/rooms/superior.png": "811afe034084d2aec9432c3403f737dde90b956623b8a2b9185c49153a26ee5e"
+  },
+  "readmeSha256": "3b17df0473486c0db46c16e6f16b43d1b6b6fc53ace1fc2274ea1d3e6328020c"
+}

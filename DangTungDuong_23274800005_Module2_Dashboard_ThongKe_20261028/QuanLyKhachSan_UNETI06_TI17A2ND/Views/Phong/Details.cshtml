@@ -1,0 +1,24 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Đặng Tùng Dương
+Mã sinh viên: 23274800005
+Nội dung thực hiện: Phạm vi được giao - Module 2: quản lý phòng, tìm kiếm, lọc, sắp xếp và phân trang.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model Phong
+@{ViewData["Title"]="Phòng "+Model.SoPhong;}
+<p><a asp-action="Index">← Danh sách phòng</a></p>
+<section class="room-detail">
+    <figure class="room-detail-photo">
+        <img src="@RoomIllustrations.For(Model.LoaiPhong.TenLoaiPhong)" alt="Ảnh minh họa hạng @Model.LoaiPhong.TenLoaiPhong của phòng @Model.SoPhong" width="1536" height="1024" fetchpriority="high" decoding="async"/>
+        <figcaption>Ảnh minh họa theo hạng phòng</figcaption>
+    </figure>
+    <div class="panel room-detail-info">
+        <p class="eyebrow">@Model.LoaiPhong.TenLoaiPhong</p><h1>Phòng @Model.SoPhong</h1>
+        <span class="badge">@(Model.LoaiPhong.TrangThai?Model.TrangThai.Ten():"Loại phòng tạm ngừng")</span>
+        <p class="price">@Model.DonGiaDem.Vnd() <small>/ đêm</small></p>
+        <dl><dt>Tòa</dt><dd>@Model.Toa</dd><dt>Tầng</dt><dd>@Model.Tang</dd><dt>Sức chứa</dt><dd>Tối đa @Model.LoaiPhong.SoNguoiToiDa người</dd><dt>Mô tả</dt><dd>@(string.IsNullOrWhiteSpace(Model.LoaiPhong.MoTa) ? Model.MoTa : Model.LoaiPhong.MoTa)</dd></dl>
+        <p class="muted">Lịch trống được kiểm tra theo ngày khi gửi yêu cầu đặt.</p>
+        @if(Model.TrangThai!=TrangThaiPhong.TamNgung&&Model.LoaiPhong.TrangThai)
+        {<a class="button" asp-controller="DatPhong" asp-action="Create" asp-route-phongId="@Model.MaPhong">Đặt phòng này →</a>}
+    </div>
+</section>
