@@ -1,0 +1,10 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Thọ Oai
+Mã sinh viên: 23274800001
+Nội dung thực hiện: Phạm vi được giao - Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model LoaiPhong
+@{ViewData["Title"]=Model.MaLoaiPhong==0?"Thêm loại phòng":"Sửa loại phòng";}<section class="panel form-page"><h1>@ViewData["Title"]</h1><form method="post"><div asp-validation-summary="All"></div>
+<div class="field"><label asp-for="TenLoaiPhong"></label><input asp-for="TenLoaiPhong"/><span asp-validation-for="TenLoaiPhong"></span></div><div class="field"><label asp-for="SoNguoiToiDa"></label><input asp-for="SoNguoiToiDa"/><span asp-validation-for="SoNguoiToiDa"></span></div><div class="field"><label asp-for="DonGiaDem"></label><input asp-for="DonGiaDem" type="number" step="0.01"/><span asp-validation-for="DonGiaDem"></span></div><div class="field"><label asp-for="MoTa"></label><textarea asp-for="MoTa"></textarea><span asp-validation-for="MoTa"></span></div><div class="field"><label asp-for="TrangThai"></label><select asp-for="TrangThai"><option value="true">Đang phục vụ</option><option value="false">Tạm ngừng</option></select></div><button>Lưu</button> <a asp-action="Index">Quay lại</a></form></section>
+@section Scripts{<partial name="_ValidationScriptsPartial"/>}

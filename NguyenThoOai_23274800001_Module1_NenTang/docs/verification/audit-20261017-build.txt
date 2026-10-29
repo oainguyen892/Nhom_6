@@ -1,0 +1,8 @@
+  QuanLyKhachSan_UNETI06_TI17A2ND -> D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND\bin\Release\net10.0\QuanLyKhachSan_UNETI06_TI17A2ND.dll
+  QuanLyKhachSan.Tests -> D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14

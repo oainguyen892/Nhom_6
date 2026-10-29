@@ -1,0 +1,9 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Thọ Oai
+Mã sinh viên: 23274800001
+Nội dung thực hiện: Phạm vi được giao - Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model List<LoaiPhong>
+@{ViewData["Title"]="Loại phòng";}<div class="toolbar"><h1>Quản lý loại phòng</h1><a class="button" asp-action="Create">Thêm loại phòng</a></div><div class="table-wrap"><table><thead><tr><th>Tên loại</th><th>Sức chứa</th><th>Giá / đêm</th><th>Phục vụ</th><th>Thao tác</th></tr></thead><tbody>
+@foreach(var x in Model){<tr><td><a asp-action="Details" asp-route-id="@x.MaLoaiPhong">@x.TenLoaiPhong</a></td><td>@x.SoNguoiToiDa người</td><td>@x.DonGiaDem.Vnd()</td><td>@(x.TrangThai?"Có":"Tạm ngừng")</td><td><div class="actions"><a asp-action="Edit" asp-route-id="@x.MaLoaiPhong">Sửa</a><form asp-action="Delete" asp-route-id="@x.MaLoaiPhong" method="post" data-confirm="Xóa loại phòng này?"><button class="danger">Xóa</button></form></div></td></tr>}</tbody></table></div>

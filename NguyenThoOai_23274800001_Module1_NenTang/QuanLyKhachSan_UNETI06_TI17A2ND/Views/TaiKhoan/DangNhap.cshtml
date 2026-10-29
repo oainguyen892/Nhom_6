@@ -1,0 +1,12 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Thọ Oai
+Mã sinh viên: 23274800001
+Nội dung thực hiện: Phạm vi được giao - Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model DangNhapForm
+@{ViewData["Title"]="Đăng nhập";}<section class="panel form-page"><p class="eyebrow">Chào mừng trở lại</p><h1>Đăng nhập</h1><form method="post"><div asp-validation-summary="All"></div>
+<div class="field"><label asp-for="TenDangNhap"></label><input asp-for="TenDangNhap" autocomplete="username"/><span asp-validation-for="TenDangNhap"></span></div>
+<div class="field"><label asp-for="MatKhau"></label><input asp-for="MatKhau" autocomplete="current-password"/><span asp-validation-for="MatKhau"></span></div><button>Đăng nhập</button></form></section>
+
+@section Scripts{<partial name="_ValidationScriptsPartial"/>}

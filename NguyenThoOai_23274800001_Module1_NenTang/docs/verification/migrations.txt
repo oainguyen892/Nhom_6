@@ -1,0 +1,2 @@
+20261016074658_InitialHotel
+No changes have been made to the model since the last migration.

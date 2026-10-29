@@ -1,0 +1,10 @@
+Reversible cleanup 2026-10-17
+Archive:
+C:\Users\LEGION 5\AppData\Local\Temp\Nhom6Cleanup_20261017_131927
+Preserved .git, application database, and .vs while Visual Studio is open.
+MOVED D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND\bin -> C:\Users\LEGION 5\AppData\Local\Temp\Nhom6Cleanup_20261017_131927\QuanLyKhachSan_UNETI06_TI17A2ND\bin
+MOVED D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND\obj -> C:\Users\LEGION 5\AppData\Local\Temp\Nhom6Cleanup_20261017_131927\QuanLyKhachSan_UNETI06_TI17A2ND\obj
+MOVED D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin -> C:\Users\LEGION 5\AppData\Local\Temp\Nhom6Cleanup_20261017_131927\tests\QuanLyKhachSan.Tests\bin
+MOVED D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\obj -> C:\Users\LEGION 5\AppData\Local\Temp\Nhom6Cleanup_20261017_131927\tests\QuanLyKhachSan.Tests\obj
+MOVED D:\nhom6_detai5\scripts\complete_handover_docs.py -> C:\Users\LEGION 5\AppData\Local\Temp\Nhom6Cleanup_20261017_131927\scripts\complete_handover_docs.py
+Observed during final check: Visual Studio recreated app bin/obj Debug design-time cache after cleanup; retained active IDE files. All caches remain ignored and excluded from ZIPs.

@@ -1,0 +1,8 @@
+@* Phân công phụ trách (chưa xác nhận tác giả thực hiện).
+Họ và tên: Nguyễn Thọ Oai
+Mã sinh viên: 23274800001
+Nội dung thực hiện: Phạm vi được giao - Module 1: tài khoản, đăng nhập, phân quyền và quản lý loại phòng.
+Trạng thái: chờ thành viên trực tiếp review, chỉnh sửa và xác nhận.
+*@
+@model LoaiPhong
+@{ViewData["Title"]="Chi tiết loại phòng";}<section class="panel"><h1>@Model.TenLoaiPhong</h1><dl><dt>Sức chứa</dt><dd>@Model.SoNguoiToiDa người</dd><dt>Giá / đêm</dt><dd>@Model.DonGiaDem.Vnd()</dd><dt>Trạng thái</dt><dd>@(Model.TrangThai?"Đang phục vụ":"Tạm ngừng")</dd><dt>Mô tả</dt><dd>@Model.MoTa</dd></dl><a asp-action="Edit" asp-route-id="@Model.MaLoaiPhong">Chỉnh sửa</a> · <a asp-action="Index">Danh sách</a></section>

@@ -1,0 +1,10 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  QuanLyKhachSan_UNETI06_TI17A2ND -> D:\nhom6_detai5\QuanLyKhachSan_UNETI06_TI17A2ND\bin\Release\net10.0\QuanLyKhachSan_UNETI06_TI17A2ND.dll
+  QuanLyKhachSan.Tests -> D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll
+Test run for D:\nhom6_detai5\tests\QuanLyKhachSan.Tests\bin\Release\net10.0\QuanLyKhachSan.Tests.dll (.NETCoreApp,Version=v10.0)
+A total of 1 test files matched the specified pattern.
+WARNING: Overwriting results file: D:\nhom6_detai5\docs\verification\production-local.trx
+Results File: D:\nhom6_detai5\docs\verification\production-local.trx
+
+Passed!  - Failed:     0, Passed:     4, Skipped:     0, Total:     4, Duration: 12 s - QuanLyKhachSan.Tests.dll (net10.0)
